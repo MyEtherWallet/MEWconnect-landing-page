@@ -1,0 +1,63 @@
+@import '~@/assets/scss/global-var';
+
+.wrap {
+
+  background-image: url('~@/assets/imgs/TopBanner/bg.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $text-white;
+  position: relative;
+
+  .banner-content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 175px 0 342px;
+
+    .banner-text-container {
+      .large-title {
+        margin-bottom: 20px;
+      }
+
+      .banner-flag {
+        margin-bottom: 10px;
+      }
+
+      .banner-article {
+        margin-bottom: 20px;
+      }
+
+      .powered-by {
+        margin-bottom: 50px;
+
+        span {
+          font-size: 30px;
+          font-weight: 700;
+        }
+      }
+
+      .follow-us {
+        margin-bottom: 20px;
+      }
+
+      .social-block {
+        i {
+          font-size: 30px;
+          margin-right: 30px;
+        }
+      }
+    }
+
+    .banner-image-container {
+      position: relative;
+
+      img {
+        position: absolute;
+        right: -130px;
+        top: 0;
+        width: 170%;
+      }
+    }
+  }
+
+} // .wrap

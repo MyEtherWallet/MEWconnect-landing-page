@@ -1,0 +1,14 @@
+@import '~@/assets/scss/global-var';
+
+.wrap {
+  color: $text-black;
+  padding: 100px 0;
+  position: relative;
+  text-align: center;
+} // .wrap
+
+
+.block-article {
+  margin: 0 auto;
+  max-width: 800px;
+}
