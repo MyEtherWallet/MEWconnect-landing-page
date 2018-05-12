@@ -17,3 +17,20 @@
     transform: skewY(-4deg);
   }
 }
+
+
+.feature-content-container {
+  display: grid;
+  grid-gap: 90px;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  .feature-block {
+    .feature-name {
+      margin-bottom: 20px;
+    }
+
+    .article {
+
+    }
+  }
+}

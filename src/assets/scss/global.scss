@@ -4,6 +4,11 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+p {
+  color: $text-base;
+  font-size: 14px;
+  line-height: 22px;
+}
 
 h1 {
   font-size: 60px;
@@ -19,6 +24,11 @@ h2 {
 h5 {
   font-size: 20px;
   line-height: 30px;
+}
+
+h6 {
+  font-size: 22px;
+  font-weight: 600;
 }
 
 .page-container {
