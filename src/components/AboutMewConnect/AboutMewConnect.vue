@@ -9,11 +9,7 @@
             <h2 class="large-title">About MEWconnect</h2>
             <div class="middle-bar"></div>
             <h5 class="block-article">
-              MEWconnect brings hardware wallet functionality to your iOS
-              and Android devices, by establishing a secure connection between
-              you and blockchain while never exposing your private key to the
-              browser. With an added layer of security, MEWconnect puts you in
-              total control of your assets.
+              From the makers of MyEtherWallet comes MEWconnect, a free and open-source smartphone app that brings hardware wallet functionality to your iOS and Android devices. MEWconnect establishes a secure connection between you and the blockchain while keeping your private key separate from the browser. With an added layer of security, MEWconnect puts you in total control of your assets.
             </h5>
           </div> <!-- .page-container -->
 

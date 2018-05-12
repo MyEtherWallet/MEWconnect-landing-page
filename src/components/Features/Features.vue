@@ -23,46 +23,35 @@
                 <img src="~@/assets/imgs/Features/verification.svg" alt="">
                 <h6 class="feature-name">2-way Transaction Verification</h6>
                 <p class="article">
-                  With MEWconnect you will always be able to verify how
-                  much you are sending, and to whom before signing the
-                  transaction and broadcasting it to the blockchain.
+                  With MEWconnect you will always be able to verify the amount you are sending and to whom before signing the transaction and broadcasting it to the blockchain.
                 </p>
               </div>
               <div class="feature-block">
                 <img src="~@/assets/imgs/Features/backup.svg" alt="">
                 <h6 class="feature-name">Back Up Your Account</h6>
                 <p class="article">
-                  You will never lose access to your Accounts and Funds.
-                  If you get a new phone, you can always  access
-                  your backup with your 24-word Mnemonic phrase.
+                  You will never lose access to your Accounts and Funds. If you get a new phone, you can always  retrieve your backup with your 24-word Mnemonic phrase
                 </p>
               </div>
               <div class="feature-block">
                 <img src="~@/assets/imgs/Features/safeguard.svg" alt="">
                 <h6 class="feature-name">Safeguard from Phishing and Malware</h6>
                 <p class="article">
-                  Onboarding, restoration, connection and transaction
-                  signing are exclusive to the phone environment.
-                  No phishers or malware will gain access to your private key!
-
+                  Onboarding, restoration, connection and transaction signing are exclusive to the phone environment. No phishers or malware will be able to obtain your private key!
                 </p>
               </div>
               <div class="feature-block">
                 <img src="~@/assets/imgs/Features/open-source.svg" alt="">
                 <h6 class="feature-name">Free and Open Source</h6>
                 <p class="article">
-                  This phone app will be free to use and open source.
-                  You will always be able see and audit all of
-                  the code that runs MEWconnect and MyEtherWallet.
+                  This phone app will be free to use and open source. You will always be able see and audit all of the code that runs MEWconnect and MyEtherWallet.
                 </p>
               </div>
               <div class="feature-block">
                 <img src="~@/assets/imgs/Features/p2p.svg" alt="">
                 <h6 class="feature-name">P2P Communication - NO Data Collection</h6>
                 <p class="article">
-                  Your phone will establish encrypted channel with a browser,
-                  therefore, there is no need for a database.
-                  Only you would have access to your private data!
+                  Your phone will establish an encrypted channel with the browser. With no need for a database, only you will have have access to your personal data!
                 </p>
               </div>
             </div>
