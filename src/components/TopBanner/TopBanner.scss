@@ -1,5 +1,10 @@
 @import '~@/assets/scss/global-var';
 
+p,
+h5 {
+  color: $text-white;
+}
+
 .wrap {
 
   background-image: url('~@/assets/imgs/TopBanner/bg.jpg');
@@ -16,7 +21,7 @@
 
     .banner-text-container {
       .large-title {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
       }
 
       .banner-flag {
@@ -25,6 +30,7 @@
 
       .banner-article {
         margin-bottom: 20px;
+        max-width: 444px
       }
 
       .powered-by {
@@ -53,7 +59,7 @@
 
       img {
         position: absolute;
-        right: -130px;
+        right: -234px;
         top: 0;
         width: 170%;
       }

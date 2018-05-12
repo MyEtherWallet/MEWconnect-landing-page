@@ -12,10 +12,15 @@
   display: flex;
 
   .copyright {
-    p span {
-      color: $text-white;
-      // text-decoration: underline;
-      border-bottom: 1px solid $text-white;
+    p {
+      color: $text-footer;
+      font-size: 16px;
+
+      span {
+        // text-decoration: underline;
+        border-bottom: 1px solid $text-white;
+        color: $text-white;
+      }
     }
   }
 
@@ -23,6 +28,7 @@
     margin-left: auto;
 
     i {
+      color: $text-footer;
       font-size: 19px;
       margin-left: 15px;
     }

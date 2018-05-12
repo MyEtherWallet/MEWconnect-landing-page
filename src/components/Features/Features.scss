@@ -25,12 +25,13 @@
   grid-template-columns: 1fr 1fr 1fr;
 
   .feature-block {
-    .feature-name {
-      margin-bottom: 20px;
+    img {
+      margin-bottom: 10px;
     }
 
-    .article {
-
+    .feature-name {
+      margin-bottom: 20px;
+      min-height: 44px;
     }
   }
 }

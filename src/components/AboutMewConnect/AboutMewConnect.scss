@@ -3,12 +3,12 @@
 .wrap {
   background-color: $background-white;
   color: $text-black;
-  padding: 100px 0;
   position: relative;
   text-align: center;
 } // .wrap
 
 .rotate-patent {
+  padding: 100px 0 200px;
   transform: skewY(4deg);
 
   .rotate-child {
