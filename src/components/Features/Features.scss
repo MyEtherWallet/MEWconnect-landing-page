@@ -1,24 +1,19 @@
 @import '~@/assets/scss/global-var';
 
 .wrap {
-  background-color: $background-white;
   color: $text-black;
-  padding: 100px 0;
+  margin-bottom: -80px;
   position: relative;
   text-align: center;
 } // .wrap
 
+
 .rotate-patent {
+  background-color: #f8f8f8;
+  padding: 100px 0 200px;
   transform: skewY(4deg);
 
   .rotate-child {
     transform: skewY(-4deg);
   }
-}
-
-
-
-.block-article {
-  margin: 0 auto;
-  max-width: 800px;
 }

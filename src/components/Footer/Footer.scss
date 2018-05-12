@@ -1,0 +1,30 @@
+@import '~@/assets/scss/global-var';
+
+.wrap {
+  background-color: $background-black;
+  color: $text-footer;
+  padding: 70px 0;
+  position: relative;
+} // .wrap
+
+.footer-content-container {
+  align-items: center;
+  display: flex;
+
+  .copyright {
+    p span {
+      color: $text-white;
+      // text-decoration: underline;
+      border-bottom: 1px solid $text-white;
+    }
+  }
+
+  .social-block {
+    margin-left: auto;
+
+    i {
+      font-size: 19px;
+      margin-left: 15px;
+    }
+  }
+}

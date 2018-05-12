@@ -4,7 +4,7 @@
       <div class="page-container">
         <ul class="banner-content-container">
           <li class="banner-text-container">
-            <h2 class="large-title">Coming Soon...</h2>
+            <h1 class="large-title">Coming Soon...</h1>
             <div class="banner-flag">
               <img class="background-image" src="~@/assets/imgs/TopBanner/flag.png" alt="MEWconnect">
             </div>
