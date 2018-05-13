@@ -5,6 +5,10 @@ h5 {
   color: $text-white;
 }
 
+.top-banner {
+  overflow: hidden;
+}
+
 .wrap {
 
   background-image: url('~@/assets/imgs/TopBanner/bg.jpg');
@@ -19,7 +23,19 @@ h5 {
     grid-template-columns: 1fr 1fr;
     padding: 175px 0 342px;
 
+    @media (min-width: 800px) and (max-width: 1109px) {
+      padding: 85px 0 342px;
+    }
+
+    @media (max-width: 799px) {
+      display: block;
+      margin-bottom: 260px;
+      padding: 85px 0 242px;
+    }
+
     .banner-text-container {
+      z-index: 1;
+
       .large-title {
         margin-bottom: 40px;
       }
@@ -30,7 +46,7 @@ h5 {
 
       .banner-article {
         margin-bottom: 20px;
-        max-width: 444px
+        max-width: 444px;
       }
 
       .powered-by {
@@ -56,12 +72,28 @@ h5 {
 
     .banner-image-container {
       position: relative;
+      z-index: 0;
 
       img {
         position: absolute;
         right: -234px;
         top: 0;
         width: 170%;
+
+        @media (min-width: 1110px) and (max-width: 1439px) {
+          right: -100px;
+        }
+
+        @media (min-width: 800px) and (max-width: 1109px) {
+          right: -150px;
+          top: 100px;
+          width: 170%;
+        }
+
+        @media (max-width: 799px) {
+          right: -170px;
+          width: 600px;
+        }
       }
     }
   }

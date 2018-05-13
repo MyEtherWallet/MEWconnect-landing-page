@@ -18,6 +18,10 @@
   top: -73px;
   transform: skewY(4deg);
 
+  @media (max-width: 799px) {
+    padding: 0 0 158px;
+  }
+
   .rotate-child {
     transform: skewY(-4deg);
   }
@@ -27,6 +31,10 @@
     position: absolute;
     top: -270px;
     width: 292px;
+
+    @media (max-width: 799px) {
+      display: none;
+    }
   }
 
   .right-image {
@@ -34,6 +42,10 @@
     position: absolute;
     right: 0;
     width: 250px;
+
+    @media (max-width: 799px) {
+      display: none;
+    }
   }
 }
 
