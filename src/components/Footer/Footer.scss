@@ -19,7 +19,11 @@
       span {
         // text-decoration: underline;
         border-bottom: 1px solid $text-white;
-        color: $text-white;
+
+        a {
+          color: $text-white;
+        }
+
       }
     }
   }

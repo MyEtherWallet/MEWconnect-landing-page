@@ -3,6 +3,8 @@
     <div class="wrap">
 
       <div class="rotate-patent">
+        <img class="left-image" src="~@/assets/imgs/About/left-img.png" alt="">
+        <img class="right-image" src="~@/assets/imgs/About/right-img.png" alt="">
         <div class="rotate-child">
 
           <div class="page-container">
