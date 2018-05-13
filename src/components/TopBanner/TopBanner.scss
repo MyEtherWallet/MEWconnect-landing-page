@@ -42,6 +42,12 @@ h5 {
 
       .banner-flag {
         margin-bottom: 10px;
+
+        img {
+          @media (max-width: 409px) {
+            width: 100%;
+          }
+        }
       }
 
       .banner-article {
@@ -90,9 +96,15 @@ h5 {
           width: 170%;
         }
 
-        @media (max-width: 799px) {
+        @media (min-width: 580px) and (max-width: 799px) {
           right: -170px;
-          width: 600px;
+          top: -100px;
+          width: 653px;
+        }
+
+        @media (max-width: 579px) {
+          right: -170px;
+          width: 550px;
         }
       }
     }

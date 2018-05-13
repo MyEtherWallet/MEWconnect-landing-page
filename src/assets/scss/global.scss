@@ -13,18 +13,28 @@ p {
 h1 {
   font-size: 46px;
   font-weight: 800;
+
+  @media (max-width: 579px) {
+    font-size: 40px;
+    line-height: 45px;
+  }
 }
 
 
 h2 {
   font-size: 40px;
   font-weight: 800;
+  line-height: 52px;
 }
 
 h5 {
   color: $text-base;
   font-size: 20px;
   line-height: 30px;
+
+  @media (max-width: 799px) {
+    font-size: 16px;
+  }
 }
 
 h6 {

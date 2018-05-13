@@ -5,13 +5,31 @@
   color: $text-footer;
   padding: 70px 0;
   position: relative;
+
+  @media (max-width: 799px) {
+    padding: 40px 0;
+  }
 } // .wrap
 
 .footer-content-container {
   align-items: center;
   display: flex;
 
+  @media (max-width: 799px) {
+    align-content: space-between;
+    flex-direction: column;
+
+    >* {
+      margin: 0 auto;
+    }
+  }
+
   .copyright {
+    @media (max-width: 799px) {
+      margin-top: 20px;
+      order: 2;
+    }
+
     p {
       color: $text-footer;
       font-size: 16px;
@@ -30,6 +48,10 @@
 
   .social-block {
     margin-left: auto;
+
+    @media (max-width: 799px) {
+      order: 1;
+    }
 
     i {
       color: $text-footer;

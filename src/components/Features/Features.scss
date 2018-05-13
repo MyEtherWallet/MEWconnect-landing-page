@@ -9,7 +9,7 @@
 
 
 .rotate-patent {
-  background-color: #f8f8f8;
+  background-color: $background-feature;
   padding: 100px 0 200px;
   transform: skewY(4deg);
 
@@ -23,6 +23,16 @@
   display: grid;
   grid-gap: 90px;
   grid-template-columns: 1fr 1fr 1fr;
+
+  @media (max-width: 669px) {
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 459px) {
+    grid-gap: 40px;
+    grid-template-columns: 1fr;
+  }
 
   .feature-block {
     img {
