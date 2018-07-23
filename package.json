@@ -1,30 +1,25 @@
 {
-  "name": "mew-connect-landing-page",
+  "name": "mew-connect",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "npm run serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "register-service-worker": "^1.0.0",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-beta.10",
-    "@vue/cli-plugin-eslint": "^3.0.0-beta.10",
-    "@vue/cli-service": "^3.0.0-beta.10",
-    "@vue/eslint-config-standard": "^3.0.0-beta.10",
-    "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6",
-    "vue-template-compiler": "^2.5.13"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+    "@vue/cli-plugin-babel": "^3.0.0-rc.5",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
+    "@vue/cli-plugin-pwa": "^3.0.0-rc.5",
+    "@vue/cli-service": "^3.0.0-rc.5",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.16"
+  }
 }
