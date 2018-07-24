@@ -8,7 +8,6 @@
       <p class="phishers__block-text">
         No one can obtain your private key.
         MEWconnect is official MyEtherWallet software.
-        You can <a href="">check the validity of the app</a> yourself.
       </p>
     </div>
   </div>
@@ -21,7 +20,7 @@ export default {
   name: 'phishers',
   components: {
   }
-}
+};
 </script>
 
 <style scoped lang="scss">

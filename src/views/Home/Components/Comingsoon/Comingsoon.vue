@@ -11,7 +11,7 @@
             <div class="apple"></div>
             <div class="google"></div>
           </div>
-          <p><a href="">Email us</a> if you want to check out MEWconnect Beta.</p>
+          <p><a href="mailto:support@myetherwallet.com?subject=MEWconnect iOS beta test request">Email us</a> if you want to check out MEWconnect Beta.</p>
         </div>
       </div>
     </div>
@@ -25,7 +25,7 @@ export default {
   name: 'comingsoon',
   components: {
   }
-}
+};
 </script>
 
 <style scoped lang="scss">

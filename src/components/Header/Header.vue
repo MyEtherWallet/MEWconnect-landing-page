@@ -9,7 +9,7 @@
             <li><a href="">User Guide</a></li>
             <li><a href="">About</a></li>
             <li>
-              <a href="">
+              <a href="https://www.myetherwallet.com" target="_blank">
                 MyEtherWallet
                 <span class="header__menu-arrow"></span>
               </a>
@@ -21,7 +21,7 @@
             <li><a href="">User Guide</a></li>
             <li><a href="">About</a></li>
             <li>
-              <a href="">
+              <a href="https://www.myetherwallet.com">
                 MyEtherWallet
                 <span class="header__menu-arrow"></span>
               </a>

@@ -16,7 +16,7 @@
       <p class="topintro__footage">
         Psst... while we are working hard to prepare MEWconnect
         for iOS for final release, you can
-        <a href="">drop us a line</a>
+        <a href="mailto:support@myetherwallet.com?subject=MEWconnect iOS beta test request">drop us a line</a>
         and we will invite you to test our iOS Beta version.
       </p>
     </div>

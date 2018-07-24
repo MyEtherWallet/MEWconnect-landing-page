@@ -31,7 +31,7 @@
             We serve the community. Also, all our
             software is independently audited by
             the community.
-            Check out our <a href="">source code</a>.
+            Check out our <a href="https://github.com/MyEtherWallet/MEWconnect" target="_blank">source code</a>.
           </p>
         </div>
       </div>
@@ -46,7 +46,7 @@ export default {
   name: 'decentralized',
   components: {
   }
-}
+};
 </script>
 
 <style scoped lang="scss">
