@@ -1,0 +1,38 @@
+.phishers {
+  padding: 180px 0;
+  background-color: #5A78F0;
+  color: white;
+}
+
+.phishers__block-image {
+  margin: 0 auto;
+  background-image: url('~@/assets/images/sprite.svg');
+  background-position: 89.58333333333333% 97.97979797979798%;
+  width: 96px;
+  height: 96px;
+}
+
+
+.phishers__block-title {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 700px;
+  margin-top: 20px;
+}
+
+.phishers__block-text {
+  color: white;
+  margin: 0 auto;
+  margin-top: 30px;
+  line-height: 30px;
+  text-align: center;
+  max-width: 800px;
+  span {
+    font-weight: 700;
+  }
+
+  a {
+    color: white;
+  }
+}
+

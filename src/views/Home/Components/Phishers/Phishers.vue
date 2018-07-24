@@ -1,7 +1,15 @@
 <template>
   <div class="phishers">
     <div class="page-container">
-      phishers
+      <div class="phishers__block-image"></div>
+      <h2 class="phishers__block-title">
+        Phishers will have to phish somewhere else
+      </h2>
+      <p class="phishers__block-text">
+        No one can obtain your private key.
+        MEWconnect is official MyEtherWallet software.
+        You can <a href="">check the validity of the app</a> yourself.
+      </p>
     </div>
   </div>
 </template>
