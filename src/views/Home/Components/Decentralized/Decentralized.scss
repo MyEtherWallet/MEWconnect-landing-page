@@ -1,0 +1,50 @@
+.decentralized {
+  padding: 180px 0;
+  color: #064DD6;
+}
+
+.decentralized__block-title {
+
+}
+
+
+.grid-block {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 70px;
+  p {
+    line-height: 35px;
+  }
+
+  .item-title {
+    margin-top: 25px;
+    font-weight: 600;
+  }
+
+  .item-text {
+    font-size: 16px;
+  }
+}
+
+
+.item-image-1 {
+  background-image: url('~@/assets/images/sprite.svg');
+  background-position: 35.2112676056338% 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.item-image-2 {
+  background-image: url('~@/assets/images/sprite.svg');
+  background-position: 0 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.item-image-3 {
+  background-image: url('~@/assets/images/sprite.svg');
+  background-position: 100% 0;
+  width: 100px;
+  height: 100px;
+}
