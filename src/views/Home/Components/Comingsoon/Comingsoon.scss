@@ -1,0 +1,48 @@
+
+
+
+.comingsoon {
+  padding: 130px 0 0 0;
+}
+
+
+.comingsoon__grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+
+  .phone-image {
+    padding: 0 60px;
+    .image {
+      background-image: url('~@/assets/images/phone.png');
+      background-size: cover;
+      background-position: center top;
+      height: 580px;
+    }
+  }
+
+  .comingsoon {
+    padding-bottom: 100px;
+    .appstores {
+      display: flex;
+      margin-top: 20px;
+      margin-bottom: 25px;
+      .apple {
+        background-image: url('~@/assets/images/sprite.svg');
+        background-position: 0 59.51417004048583%;
+        width: 140px;
+        height: 47px;
+        margin-right: 25px;
+      }
+
+      .google {
+        background-image: url('~@/assets/images/sprite.svg');
+        background-position: 0 40.48582995951417%;
+        width: 159px;
+        height: 47px;
+      }
+    }
+  }
+}
+
+

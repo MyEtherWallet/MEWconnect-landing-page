@@ -1,7 +1,19 @@
 <template>
   <div class="comingsoon">
     <div class="page-container">
-      comingsoon
+      <div class="comingsoon__grid-container">
+        <div class="phone-image">
+          <div class="image"></div>
+        </div>
+        <div class="comingsoon">
+          <h2>Coming soon</h2>
+          <div class="appstores">
+            <div class="apple"></div>
+            <div class="google"></div>
+          </div>
+          <p><a href="">Email us</a> if you want to check out MEWconnect Beta.</p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
