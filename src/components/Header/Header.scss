@@ -1,0 +1,36 @@
+@import '~@/assets/scss/global-variables.scss';
+
+.header__container {
+  padding: 30px 0;
+  border-bottom: 1px solid $header--border-bottom--color;
+  display: flex;
+  align-items: center;
+
+  nav {
+    margin-left: auto;
+    ul {
+      display: flex;
+      li {
+        position: relative;
+        margin-left: 30px;
+        color: $body--text--color;
+        font-weight: 600;
+        display: flex;
+
+        .header__menu-arrow {
+          $menu-arrow-block-size: 17px;
+          position: relative;
+          display: inline-block;
+          height: $menu-arrow-block-size;
+          width: $menu-arrow-block-size;
+          background-image: url('~@/assets/images/sprite.svg');
+          background-position: -257px 193px;
+          margin-left: 6px;
+        }
+      }
+    }
+  }
+}
+
+
+

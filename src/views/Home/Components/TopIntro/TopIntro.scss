@@ -1,0 +1,55 @@
+
+.topintro {
+  padding: 40px 0 40px 0;
+}
+
+.topintro__header {
+  max-width: 700px;
+  margin-bottom: 26px;
+}
+
+.topintro__sub-header {
+  max-width: 460px;
+  line-height: 31px;
+}
+
+.topintro__app-image {
+  width: 100%;
+}
+
+.topintro__appstores {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  a {
+    margin: 0 12px;
+  }
+
+  .topintro__appstores__apple {
+    background-image: url('~@/assets/images/sprite.svg');
+    width: 140px;
+    height: 47px;
+    background-position: 0px 147px;
+  }
+
+  .topintro__appstores__google {
+    background-image: url('~@/assets/images/sprite.svg');
+    width: 159px;
+    height: 47px;
+    background-position: 0px 194px;
+  }
+}
+
+.topintro__footage {
+  line-height: 28px;
+  font-size: 16px;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+
+

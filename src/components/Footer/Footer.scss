@@ -1,0 +1,81 @@
+@import '~@/assets/scss/global-variables.scss';
+
+
+.footer {
+  padding: 50px 0;
+  color: white;
+  background-color: $footer--background--color;
+}
+
+
+.footer__footer-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: start;
+
+
+  .mew-logo {
+    background-image: url('~@/assets/images/sprite.svg');
+    width: 160px;
+    height: 40px;
+    background-position: 0px 234px;
+  }
+
+  ul {
+    li {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 40px;
+    }
+  }
+}
+
+.footer__note {
+  display: flex;
+  margin-top: 120px;
+  align-items: center;
+
+  .company-copyright {
+    font-size: 14px;
+    color: rgba(255,255,255,.7);
+  }
+  .social-buttons {
+    margin-left: auto;
+
+    span {
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+      margin-left: 18px;
+    }
+    .facebook {
+      background-image: url('~@/assets/images/sprite.svg');
+      background-position: 36px 145px;
+    }
+    .twitter {
+      background-image: url('~@/assets/images/sprite.svg');
+      background-position: -183px 193px;
+    }
+    .linkedin {
+      background-image: url('~@/assets/images/sprite.svg');
+      background-position: -161px 193px;
+    }
+    .instagram {
+      background-image: url('~@/assets/images/sprite.svg');
+      background-position: -208px 193px;
+    }
+    .reddit {
+      background-image: url('~@/assets/images/sprite.svg');
+      background-position: -232px 193px;
+    }
+    .github {
+      background-image: url('~@/assets/images/sprite.svg');
+      background-position: 36px 193px;
+    }
+    .medium {
+      background-image: url('~@/assets/images/sprite.svg');
+      background-position: 36px 169px;
+    }
+  }
+}
+
