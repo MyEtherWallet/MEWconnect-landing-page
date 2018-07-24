@@ -13,15 +13,24 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: start;
 
+  @media all and (max-width: $mobile-width) {
+    display: block;
+  }
   a {
 
   }
 
-  .mew-logo {
-    background-image: url('~@/assets/images/sprite.svg');
-    width: 160px;
-    height: 40px;
-    background-position: 0px 234px;
+  .footer__logo {
+
+    @media all and (max-width: $mobile-width) {
+      margin-bottom: 30px;
+    }
+    .mew-logo {
+      background-image: url('~@/assets/images/sprite.svg');
+      width: 160px;
+      height: 40px;
+      background-position: 0px 234px;
+    }
   }
 
   ul {
@@ -45,18 +54,33 @@
   margin-top: 120px;
   align-items: center;
 
+  @media all and (max-width: $mobile-width) {
+    display: block;
+    margin-top: 50px;
+  }
   .company-copyright {
     font-size: 14px;
     color: rgba(255,255,255,.7);
+    order: 1;
   }
   .social-buttons {
     margin-left: auto;
+    order: 2;
+
+    @media all and (max-width: $mobile-width) {
+      margin-bottom: 60px;
+    }
 
     span {
       display: inline-block;
       width: 22px;
       height: 22px;
       margin-left: 18px;
+
+      @media all and (max-width: $mobile-width) {
+        margin-left: 0;
+        margin-right: 18px;
+      }
     }
     .facebook {
       background-image: url('~@/assets/images/sprite.svg');

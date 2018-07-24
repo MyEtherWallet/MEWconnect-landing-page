@@ -1,19 +1,24 @@
 
 .topintro {
-  padding: 40px 0 40px 0;
+  padding: 50px 0;
 }
 
 .topintro__header {
   max-width: 700px;
   margin-bottom: 26px;
+
+  @media all and (max-width: $mobile-width) {
+    font-size: 35px;
+    line-height: 40px;
+  }
 }
 
 .topintro__sub-header {
   max-width: 460px;
-  line-height: 31px;
 }
 
 .topintro__app-image {
+  margin-top: 10px;
   width: 100%;
 }
 
@@ -43,8 +48,6 @@
 }
 
 .topintro__footage {
-  line-height: 28px;
-  font-size: 16px;
   text-align: center;
   max-width: 700px;
   margin: 0 auto;

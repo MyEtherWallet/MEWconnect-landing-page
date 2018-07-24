@@ -1,6 +1,10 @@
 .protect {
   padding: 180px 0;
   color: #06C0A5;
+  
+  @media all and (max-width: $mobile-width) {
+    padding: $mobile-block-padding;
+  }
 }
 
 .protect__block-image {
@@ -22,7 +26,6 @@
 .protect__block-text {
   margin: 0 auto;
   margin-top: 30px;
-  line-height: 30px;
   text-align: center;
   max-width: 800px;
   span {

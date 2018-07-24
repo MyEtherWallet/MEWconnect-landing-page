@@ -2,7 +2,7 @@
   <div class="footer">
     <div class="page-container">
       <div class="footer__footer-menu">
-        <div>
+        <div class="footer__logo">
           <div class="mew-logo"></div>
         </div>
         <div>
@@ -27,7 +27,6 @@
         </div>
       </div>
       <div class="footer__note">
-        <div class="company-copyright">© 2018 MyEtherWallet, Inc</div>
         <div class="social-buttons">
           <a href=""><span class="facebook"></span></a>
           <a href=""><span class="twitter"></span></a>
@@ -37,6 +36,7 @@
           <a href=""><span class="reddit"></span></a>
           <a href=""><span class="medium"></span></a>
         </div>
+        <div class="company-copyright">© 2018 MyEtherWallet, Inc</div>
       </div>
     </div>
     

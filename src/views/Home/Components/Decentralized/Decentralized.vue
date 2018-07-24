@@ -6,7 +6,7 @@
       </h2>
       <div class="grid-block">
         <div>
-          <div class="item-image-1"></div>
+          <div class="item-image item-image-1"></div>
           <p class="item-title">No centralized servers</p>
           <p class="item-text">
             No databases. MEWconnect and MyEtherWallet
@@ -14,7 +14,7 @@
           </p>
         </div>
         <div>
-          <div class="item-image-2"></div>
+          <div class="item-image item-image-2"></div>
           <p class="item-title">No data collection</p>
           <p class="item-text">
             MyEtherWallet can’t collect your personal
@@ -24,7 +24,7 @@
           </p>
         </div>
         <div>
-          <div class="item-image-3"></div>
+          <div class="item-image item-image-3"></div>
           <p class="item-title">Open source</p>
           <p class="item-text">
             Transparent, free, and open source.

@@ -5,7 +5,7 @@
         <div class="phone-image">
           <div class="image"></div>
         </div>
-        <div class="comingsoon">
+        <div class="comingsoon-text">
           <h2>Coming soon</h2>
           <div class="appstores">
             <div class="apple"></div>

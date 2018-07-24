@@ -4,6 +4,10 @@
   background-image: url('~@/assets/images/team.jpg');
   background-size: cover;
   background-position: center;
+
+  @media all and (max-width: $mobile-width) {
+    padding: 300px 0 70px 0;
+  }
 }
 
 

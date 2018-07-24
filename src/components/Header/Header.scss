@@ -1,20 +1,74 @@
 @import '~@/assets/scss/global-variables.scss';
 
+.mobile-menu-button {
+  display: none;
+  @media all and (max-width: $mobile-width) {
+    display: block;
+    position: absolute;
+    right: 38px;
+    top: 31px;
+    height: 14px;
+    width: 21px;
+    background-image: url('~@/assets/images/sprite.svg');
+    background-position: -178px 165px;
+    margin-left: 6px;
+  }
+}
+
 .header__container {
   padding: 30px 0;
   border-bottom: 1px solid $header--border-bottom--color;
   display: flex;
   align-items: center;
 
+  @media all and (max-width: $mobile-width) {
+    display: block;
+    padding: 15px 0;
+  }
+
+  .header__logo-image {
+
+    @media all and (max-width: $mobile-width) {
+      height: 40px;
+    }
+  }
+
+  .desktop-menu {
+    display: block;
+    @media all and (max-width: $mobile-width) {
+      display: none;
+    }
+  }
+
+  .mobile-menu {
+    display: none;
+    @media all and (max-width: $mobile-width) {
+      display: block;
+    }
+  }
+
   nav {
     margin-left: auto;
     ul {
       display: flex;
+
+      @media all and (max-width: $mobile-width) {
+        display: block;
+        margin-top: 30px;
+      }
+
       li {
         position: relative;
         margin-left: 30px;
         font-weight: 600;
         display: flex;
+
+        @media all and (max-width: $mobile-width) {
+          display: block;
+          margin-left: 5px;
+          padding: 15px 0;
+
+        }
 
         a {
           text-decoration: none;
@@ -31,8 +85,8 @@
           margin-left: 6px;
         }
       }
-    }
-  }
+    } // ul    
+  } // nav
 }
 
 
