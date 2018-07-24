@@ -1,14 +1,16 @@
 <template>
   <div class="header page-container">
     <div class="header__container">
-      <img src="~@/assets/images/logo.svg">
+      <router-link to="/"><img src="~@/assets/images/logo.svg"></router-link>
       <nav>
         <ul>
-          <li>User Guide</li>
-          <li>About</li>
+          <li><a href="">User Guide</a></li>
+          <li><a href="">About</a></li>
           <li>
-            MyEtherWallet
-            <span class="header__menu-arrow"></span>
+            <a href="">
+              MyEtherWallet
+              <span class="header__menu-arrow"></span>
+            </a>
           </li>
         </ul>
       </nav>

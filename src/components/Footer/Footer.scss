@@ -13,6 +13,9 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: start;
 
+  a {
+
+  }
 
   .mew-logo {
     background-image: url('~@/assets/images/sprite.svg');
@@ -23,9 +26,16 @@
 
   ul {
     li {
-      font-size: 14px;
-      font-weight: 600;
-      line-height: 40px;
+      
+      
+      a {
+        line-height: 40px;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+      }
+      
     }
   }
 }

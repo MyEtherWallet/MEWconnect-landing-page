@@ -13,16 +13,19 @@
       li {
         position: relative;
         margin-left: 30px;
-        color: $body--text--color;
         font-weight: 600;
         display: flex;
 
+        a {
+          text-decoration: none;
+          color: $body--text--color;
+        }
+
         .header__menu-arrow {
-          $menu-arrow-block-size: 17px;
           position: relative;
           display: inline-block;
-          height: $menu-arrow-block-size;
-          width: $menu-arrow-block-size;
+          height: 14px;
+          width: 17px;
           background-image: url('~@/assets/images/sprite.svg');
           background-position: -257px 193px;
           margin-left: 6px;

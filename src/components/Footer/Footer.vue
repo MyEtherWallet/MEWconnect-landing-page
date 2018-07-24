@@ -7,35 +7,35 @@
         </div>
         <div>
           <ul>
-            <li>About</li>
-            <li>User guide</li>
-            <li>Knowledge Base</li>
-            <li>Disclaimer</li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">User guide</a></li>
+            <li><a href="/">Knowledge Base</a></li>
+            <li><a href="/">Disclaimer</a></li>
           </ul>
         </div>
         <div>
           <ul>
-            <li>MyEtherWallet.com</li>
-            <li>Team</li>
+            <li><a href="/">MyEtherWallet.com</a></li>
+            <li><a href="/">Team</a></li>
           </ul>
         </div>
         <div>
           <ul>
-            <li>Support</li>
-            <li>Privacy policy</li>
+            <li><a href="/">Support</a></li>
+            <li><a href="/">Privacy policy</a></li>
           </ul>
         </div>
       </div>
       <div class="footer__note">
         <div class="company-copyright">© 2018 MyEtherWallet, Inc</div>
         <div class="social-buttons">
-          <span class="facebook"></span>
-          <span class="twitter"></span>
-          <span class="instagram"></span>
-          <span class="linkedin"></span>
-          <span class="github"></span>
-          <span class="reddit"></span>
-          <span class="medium"></span>
+          <a href=""><span class="facebook"></span></a>
+          <a href=""><span class="twitter"></span></a>
+          <a href=""><span class="instagram"></span></a>
+          <a href=""><span class="linkedin"></span></a>
+          <a href=""><span class="github"></span></a>
+          <a href=""><span class="reddit"></span></a>
+          <a href=""><span class="medium"></span></a>
         </div>
       </div>
     </div>
