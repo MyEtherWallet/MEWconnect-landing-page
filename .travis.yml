@@ -28,7 +28,7 @@ jobs:
   include:
   - stage: add to mewbuilds
     before_script:
-    - npm run build
+    - BASE_URL="build/${TRAVIS_COMMIT}/" npm run build
     - pip install --user awscli
     script:
     - aws s3 sync --acl public-read dist/ s3://mewc-builds/build/$TRAVIS_COMMIT
