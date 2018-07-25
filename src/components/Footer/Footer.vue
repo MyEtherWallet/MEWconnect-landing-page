@@ -7,10 +7,8 @@
         </div>
         <div>
           <ul>
-            <li><a href="/">About</a></li>
-            <li><a href="/">User guide</a></li>
+            <li><a href="https://kb.myetherwallet.com/getting-started/mew-connect-user-guide.html" target="_blank">User guide</a></li>
             <li><a href="https://myetherwallet.github.io/knowledge-base/">Knowledge Base</a></li>
-            <li><a href="#disclaimer">Disclaimer</a></li>
           </ul>
         </div>
         <div>

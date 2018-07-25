@@ -19,8 +19,6 @@
           <p class="item-text">
             MyEtherWallet can’t collect your personal
             data even if we wanted to.
-            Don’t believe us?
-            Check out our <a href="">privacy policy</a>.
           </p>
         </div>
         <div>

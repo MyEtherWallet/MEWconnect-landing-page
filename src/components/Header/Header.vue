@@ -6,8 +6,7 @@
         <router-link to="/"><img class="header__logo-image" src="~@/assets/images/logo.svg"></router-link>
         <nav class="desktop-menu">
           <ul>
-            <li><a href="">User Guide</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="https://kb.myetherwallet.com/getting-started/mew-connect-user-guide.html" target="_blank">User Guide</a></li>
             <li>
               <a href="https://www.myetherwallet.com" target="_blank">
                 MyEtherWallet
@@ -18,8 +17,7 @@
         </nav>
         <nav class="mobile-menu" v-if="mobileMenuStatus">
           <ul>
-            <li><a href="">User Guide</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="https://kb.myetherwallet.com/getting-started/mew-connect-user-guide.html" target="_blank">User Guide</a></li>
             <li>
               <a href="https://www.myetherwallet.com">
                 MyEtherWallet
