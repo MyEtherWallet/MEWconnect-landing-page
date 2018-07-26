@@ -1,0 +1,17 @@
+@import '~@/assets/scss/global-variables.scss';
+
+.about {
+  .container {
+    padding: 0 122px;
+
+    @media all and (max-width: $screen-ipad-m) {
+      padding-right: 22px;
+      padding-left: 22px;
+    }
+
+    @media all and (max-width: $screen-iphone) {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+  }
+}

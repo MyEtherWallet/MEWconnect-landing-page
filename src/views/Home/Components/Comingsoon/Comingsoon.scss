@@ -1,81 +1,103 @@
+.last {
+  height: 700px;
+  overflow: hidden;
 
-
-
-.comingsoon {
-  padding: 90px 0 0 0;
-
-  @media all and (max-width: 900px) {
-    padding: 80px 0 0 0;
+  @media all and (max-width: $screen-ipad) {
+    height: 600px;
   }
-}
 
-
-.comingsoon__grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: end;
-
-  @media all and (max-width: 900px) {
-    display: block;
+  @media all and (max-width: $screen-iphone) {
+    height: 550px;
   }
-  .phone-image {
-    padding: 0 60px;
-    @media all and (max-width: 900px) {
-      padding: 0;
+
+  .row, .container {
+    height: 100%;
+  }
+
+  &__phone {
+    margin-bottom: -117px;
+    position: relative;
+
+    @media all and (max-width: $screen-mobile) {
+      margin-bottom: 0;
     }
-    .image {
-      background-image: url('~@/assets/images/phone.png');
-      background-size: cover;
-      background-position: center top;
-      height: 530px;
-      @media all and (max-width: 900px) {
-        height: 480px;
-        width: 310px;
+
+    @media all and (max-width: $screen-iphone) {
+      margin-top: 77px;
+    }
+
+    &:after {
+      @media all and (max-width: $screen-iphone) {
+        content: '';
+        height: 251px;
+        left: -20px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 60.16%);
+        position: absolute;
+        bottom: 131px;
+        width: calc(100% + 40px);
+      }
+    }
+
+    img {
+      width: 360px;
+      display: block;
+      margin: 0 auto;
+
+      @media all and (max-width: $screen-ipad) {
+        width: 340px;
+      }
+
+      @media all and (max-width: $screen-mobile) {
+        width: 304px;
+      }
+
+      @media all and (max-width: $screen-iphone) {
+        width: 320px;
         margin: 0 auto;
       }
+
+      @media all and (max-width: $screen-mini) {
+        margin-left: -20px;
+      }
     }
   }
 
-  .comingsoon-text {
-    padding-bottom: 100px;
-    @media all and (max-width: 900px) {
-      padding-bottom: 50px;
-      text-align: center;
-      padding-top: 200px;
-      margin-top: -239px;
-      background: linear-gradient(transparent,#fffffffa, white);
+  .app__download {
+    margin-bottom: 90px;
 
-      h2 {
-        display: none;
-      }
+    @media all and (max-width: $screen-mobile) {
+      margin-bottom: 73px;
     }
-    .appstores {
-      display: flex;
-      margin-top: 20px;
-      margin-bottom: 25px;
-      @media all and (max-width: 900px) {
-        display: inline-flex;
-      }
-      .apple {
-        background-image: url('~@/assets/images/sprite.svg');
-        background-position: 0 59.51417004048583%;
-        width: 140px;
-        height: 47px;
-        margin-right: 25px;
-        @media all and (max-width: 900px) {
-          margin-right: 10px;
-        }
 
-      }
+    @media all and (max-width: $screen-iphone) {
+      position: absolute;
+      bottom: 152px;
+      left: 15px;
+      margin-bottom: 0;
+      width: calc(100% - 30px);
+    }
+  }
 
-      .google {
-        background-image: url('~@/assets/images/sprite.svg');
-        background-position: 0 40.48582995951417%;
-        width: 159px;
-        height: 47px;
-      }
+  .app__download-buttons {
+    text-align: left;
+
+    @media all and (max-width: $screen-iphone) {
+      text-align: center;
+    }
+  }
+
+  .app__download-desc {
+    width: 100%;
+    text-align: left;
+  }
+
+  .app__download-coming {
+    @media all and (max-width: $screen-iphone) {
+      position: absolute;
+      bottom: 452px;
+      left: 0;
+      font-size: 24px;
+      line-height: 28px;
     }
   }
 }
-
-

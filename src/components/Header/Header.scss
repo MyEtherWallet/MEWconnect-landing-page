@@ -1,93 +1,113 @@
 @import '~@/assets/scss/global-variables.scss';
+@import '~@/assets/scss/global-iconset.scss';
 
-.mobile-menu-button {
-  display: none;
-  @media all and (max-width: $mobile-width) {
-    display: block;
-    position: absolute;
-    right: 38px;
-    top: 31px;
-    height: 14px;
-    width: 21px;
-    background-image: url('~@/assets/images/sprite.svg');
-    background-position: -178px 165px;
-    margin-left: 6px;
+.h-wrap {
+  @media all and (max-width: $screen-iphone) {
+    background-color: #ffffff;
+    position: relative;
+    z-index: 3;
   }
 }
 
-.header__container {
+.header {
   padding: 30px 0;
-  border-bottom: 1px solid $header--border-bottom--color;
-  display: flex;
-  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 3;
 
-  @media all and (max-width: $mobile-width) {
-    display: block;
-    padding: 15px 0;
+  @media all and (max-width: $screen-iphone) {
+    padding: 20px 0;
+    height: 80px;
   }
 
-  .header__logo-image {
+  &__menu {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
 
-    @media all and (max-width: $mobile-width) {
-      height: 40px;
+    &-arrow {
+      display: inline-block;
+      margin-top: -3px;
+      vertical-align: middle;
+      @extend %svg-svg--arrow;
+      @extend %svg-svg--arrow-dims;
     }
-  }
 
-  .desktop-menu {
-    display: block;
-    @media all and (max-width: $mobile-width) {
+    @media all and (max-width: $screen-iphone) {
       display: none;
     }
-  }
 
-  .mobile-menu {
-    display: none;
-    @media all and (max-width: $mobile-width) {
-      display: block;
+    &.open {
+      @media all and (max-width: $screen-iphone) {
+        position: absolute;
+        width: calc(100% + 40px);
+        left: -20px;
+        top: 79px;
+        background-color: #ffffff;
+        z-index: 3;
+        padding-top: 20px;
+        display: block;
+      }
+    }
+
+    a {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      text-align: right;
+      letter-spacing: -0.02em;
+      color: #313131;
+      margin-left: 30px;
+      line-height: 60px;
+      text-decoration: none;
+      font-family: $OpenSans;
+
+      &:hover { text-decoration: underline }
+
+      @media all and (max-width: $screen-iphone) {
+        display: block;
+        text-align: left;
+        line-height: 22px;
+        margin-bottom: 20px;
+      }
+    }
+
+    &-open {
+      display: none;
+      vertical-align: middle;
+      float: right;
+      margin-top: 10px;
+      @extend %svg-svg--menu;
+      @extend %svg-svg--menu-dims;
+
+      &.open {
+        @extend %svg-svg--close;
+        @extend %svg-svg--close-dims;
+      }
+
+      @media all and (max-width: $screen-iphone) {
+        display: inline-block;
+      }
     }
   }
-
-  nav {
-    margin-left: auto;
-    ul {
-      display: flex;
-
-      @media all and (max-width: $mobile-width) {
-        display: block;
-        margin-top: 30px;
-      }
-
-      li {
-        position: relative;
-        margin-left: 30px;
-        font-weight: 600;
-        display: flex;
-
-        @media all and (max-width: $mobile-width) {
-          display: block;
-          margin-left: 5px;
-          padding: 15px 0;
-
-        }
-
-        a {
-          text-decoration: none;
-          color: $body--text--color;
-        }
-
-        .header__menu-arrow {
-          position: relative;
-          display: inline-block;
-          height: 14px;
-          width: 17px;
-          background-image: url('~@/assets/images/sprite.svg');
-          background-position: -257px 193px;
-          margin-left: 6px;
-        }
-      }
-    } // ul    
-  } // nav
 }
 
+.logo {
+  width: 284px;
+  height: 63px;
+  display: inline-block;
+  vertical-align: middle;
 
+  img {
+    max-width: 100%;
+  }
 
+  @media all and (max-width: $screen-iphone) {
+    -moz-transform: scale(0.6666);
+    -webkit-transform: scale(0.6666);
+    -o-transform: scale(0.6666);
+    transform: scale(0.6666);
+    margin-left: -43px;
+    margin-top: -10px;
+  }
+}

@@ -1,74 +1,110 @@
-.decentralized {
-  padding: 140px 0;
-  color: #064DD6;
-  
-  @media all and (max-width: $mobile-width) {
-    padding: $mobile-block-padding;
+.p2p {
+  height: 700px;
+
+  @media all and (max-width: $screen-ipad) {
+    height: 600px;
   }
-}
 
-.decentralized__block-title {
-  @media all and (max-width: $mobile-width) {
-    text-align: center;
+  @media all and (max-width: $screen-iphone) {
+    height: auto;
+    padding: 50px 0;
   }
-}
 
+  .row, .container {
+    height: 100%;
+  }
 
-.grid-block {
-  margin-top: 70px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 70px;
+  &__title {
+    line-height: 46px;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 66px;
+    color: #064DD6;
+    font-family: $Avenir;
 
-  @media all and (max-width: $mobile-width) {
-    display: block;
-    text-align: center;
-    >div {
-      margin-bottom: 70px;
+    @media all and (max-width: $screen-iphone) {
+      line-height: 38px;
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+  }
 
-      &:last-child {
+  &__item {
+    @media all and (max-width: $screen-iphone) {
+      margin-bottom: 40px;
+    }
+
+    &--last {
+      @media all and (max-width: $screen-iphone) {
         margin-bottom: 0;
       }
     }
-  }
 
+    h4 {
+      font-style: normal;
+      font-weight: 600;
+      line-height: 35px;
+      font-size: 18px;
+      letter-spacing: -0.02em;
+      color: #313131;
+      margin: 0;
+      font-family: $OpenSans;
+    }
 
-  .item-title {
-    margin-top: 25px;
-    font-weight: 600;
-    @media all and (max-width: $mobile-width) {
-      margin-top: 10px;
+    p {
+      font-style: normal;
+      font-weight: normal;
+      line-height: 32px;
+      font-size: 16px;
+      letter-spacing: -0.02em;
+      color: #313131;
+      margin: 0;
+      font-family: $OpenSans;
+
+      a {
+        font-style: normal;
+        font-weight: normal;
+        line-height: 32px;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+        color: #064DD6;
+
+        &:hover { text-decoration: none }
+      }
+    }
+
+    &-icon {
+      height: 100px;
+      position: relative;
+      margin-bottom: 20px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+
+      &--p2p {
+        &:before {
+          @extend %svg-svg--p2p;
+          @extend %svg-svg--p2p-dims;
+        }
+      }
+
+      &--no-data {
+        &:before {
+          @extend %svg-svg--nodatacollection;
+          @extend %svg-svg--nodatacollection-dims;
+        }
+      }
+
+      &--comunity {
+        &:before {
+          @extend %svg-svg--comunity;
+          @extend %svg-svg--comunity-dims;
+        }
+      }
     }
   }
-
-  .item-text {
-
-  }
-}
-
-.item-image {
-  @media all and (max-width: $mobile-width) {
-    margin: 0 auto;
-  }
-}
-
-.item-image-1 {
-  background-image: url('~@/assets/images/sprite.svg');
-  background-position: 35.2112676056338% 100%;
-  width: 100px;
-  height: 100px;
-}
-
-.item-image-2 {
-  background-image: url('~@/assets/images/sprite.svg');
-  background-position: 0 100%;
-  width: 100px;
-  height: 100px;
-}
-
-.item-image-3 {
-  background-image: url('~@/assets/images/sprite.svg');
-  background-position: 100% 0;
-  width: 100px;
-  height: 100px;
 }

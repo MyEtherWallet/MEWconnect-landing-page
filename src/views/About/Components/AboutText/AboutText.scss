@@ -1,0 +1,148 @@
+@import '~@/assets/scss/global-variables.scss';
+
+.about-text {
+  margin-top: 41px;
+  margin-bottom: 104px;
+
+  h2 {
+    font-family: $Avenir;
+    font-size: 42px;
+    line-height: 46px;
+    margin-bottom: 20px;
+    margin-top: 0;
+
+    @media all and (max-width: $screen-iphone) {
+      line-height: 32px;
+      font-size: 30px;
+      letter-spacing: .01em;
+    }
+  }
+
+  &__text {
+    margin-bottom: 40px;
+
+    p {
+      font-family: $OpenSans;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 32px;
+      font-size: 18px;
+      letter-spacing: -0.02em;
+      margin-top: 0;
+      margin-bottom: 15px;
+
+      @media all and (max-width: $screen-iphone) {
+        line-height: 28px;
+        font-size: 16px;
+        letter-spacing: -.02em;
+      }
+
+      &:last-child { margin-bottom: 0 }
+    }
+  }
+
+  &__feautures {
+    padding-bottom: 11px;
+    margin-bottom: 40px;
+    position: relative;
+
+    &:before {
+      content: '';
+      width: calc(100% + 244px);
+      left: -122px;
+      height: 1px;
+      background-color: $header--border-bottom--color;
+      position: absolute;
+      bottom: 0;
+    }
+
+    h3 {
+      font-family: 'Open Sans',sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 32px;
+      font-size: 24px;
+      color: #313131;
+      margin-top: 0;
+      margin-bottom: 30px;
+
+      @media all and (max-width: $screen-iphone) {
+        line-height: 28px;
+        font-size: 22px;
+        margin-bottom: 20px;
+      }
+    }
+
+    &-item {
+
+      h4 {
+        font-family: $OpenSans;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 32px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        color: #313131;
+        margin: 0;
+
+        @media all and (max-width: $screen-iphone) {
+          line-height: 28px;
+          font-size: 22px;
+        }
+      }
+
+      p {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 32px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        color: #313131;
+        margin-top: 0;
+        margin-bottom: 30px;
+
+        @media all and (max-width: $screen-iphone) {
+          line-height: 28px;
+          font-size: 16px;
+          letter-spacing: -.02em;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  &__help {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 37px;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: -0.02em;
+    margin: 0 auto;
+    font-family: $OpenSans;
+
+    @media all and (max-width: $screen-iphone) {
+      line-height: 32px;
+      font-size: 16px;
+    }
+
+    a {
+      color: #064DD6;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 37px;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      font-family: $OpenSans;
+
+      @media all and (max-width: $screen-iphone) {
+        line-height: 32px;
+        font-size: 16px;
+      }
+
+      &:hover { text-decoration: none }
+    }
+  }
+}

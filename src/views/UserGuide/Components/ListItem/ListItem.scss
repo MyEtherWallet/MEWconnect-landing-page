@@ -1,0 +1,33 @@
+@import '~@/assets/scss/global-variables.scss';
+
+.list-item {
+  margin-bottom: 20px;
+
+  &__text {
+    font-family: $OpenSans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 32px;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    color: #313131;
+    margin-bottom: 10px;
+    position: relative;
+
+    span {
+      position: absolute;
+      left: -40px;
+      top: 0
+    }
+  }
+
+  &__description {
+    font-family: $OpenSans;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 32px;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    color: #313131;
+  }
+}

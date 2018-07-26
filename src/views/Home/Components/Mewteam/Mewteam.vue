@@ -1,11 +1,16 @@
 <template>
-  <div class="mewteam">
-    <div class="page-container">
-      <h2 class="mewteam__block-title">Built and maintained by the MyEtherWallet team</h2>
-      <p class="mewteam__block-text">
-        The team that brought you the Ethereum’s
-        original and most trusted wallet interface.
-      </p>
+  <div class="team">
+    <img src="~@/assets/images/team.jpg" alt="" />
+
+    <div class="team__text">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Built and maintained<br />by the MyEtherWallet team</h2>
+            <p>The team that brought you the Ethereum’s original and most trusted wallet interface.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>

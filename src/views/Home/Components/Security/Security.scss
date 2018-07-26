@@ -1,37 +1,17 @@
-.security {
-  padding: 180px 0;
-  background-color: #06C0A5;
-  color: white;
+.hardware {
+  height: 700px;
+  background: #06C0A5;
 
-  @media all and (max-width: $mobile-width) {
-    padding: $mobile-block-padding;
+  @media all and (max-width: $screen-ipad) {
+    height: 600px;
   }
-}
 
-.security__block-image {
-  margin: 0 auto;
-  background-image: url('~@/assets/images/sprite.svg');
-  background-position: 61.34969325153374% 97.97979797979798%;
-  width: 58px;
-  height: 96px;
-}
+  @media all and (max-width: $screen-iphone) {
+    height: 550px;
+  }
 
-
-.security__block-title {
-  margin: 0 auto;
-  text-align: center;
-  max-width: 700px;
-  margin-top: 20px;
-}
-
-.security__block-text {
-  color: white;
-  margin: 0 auto;
-  margin-top: 30px;
-  text-align: center;
-  max-width: 800px;
-  span {
-    font-weight: 700;
+  .row, .container {
+    height: 100%;
   }
 }
 

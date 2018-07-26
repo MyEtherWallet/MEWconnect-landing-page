@@ -1,114 +1,171 @@
 @import '~@/assets/scss/global-variables.scss';
-
+@import '~@/assets/scss/global-iconset.scss';
 
 .footer {
-  padding: 50px 0;
-  color: white;
-  background-color: $footer--background--color;
-}
+  height: 388px;
+  background: $footer--background--color;
+  padding-top: 50px;
+  position: relative;
 
-
-.footer__footer-menu {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  align-items: start;
-
-  @media all and (max-width: $mobile-width) {
-    display: block;
-  }
-  a {
-
-  }
-
-  .footer__logo {
-
-    @media all and (max-width: $mobile-width) {
-      margin-bottom: 30px;
-    }
-    .mew-logo {
-      background-image: url('~@/assets/images/sprite.svg');
-      width: 160px;
-      height: 40px;
-      background-position: 0px 234px;
-    }
-  }
-
-  ul {
-    li {
-      
-      
-      a {
-        line-height: 40px;
-        font-size: 14px;
-        font-weight: 600;
-        text-decoration: none;
-        color: white;
+  &.open {
+    &:after {
+      content: "";
+      @media all and (max-width: $screen-iphone) {
+        background: rgba(0, 0, 0, 0.2);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        top: 0;
+        left: 0;
       }
-      
     }
   }
-}
 
-.footer__note {
-  display: flex;
-  margin-top: 120px;
-  align-items: center;
-
-  @media all and (max-width: $mobile-width) {
-    display: block;
-    margin-top: 50px;
+  @media all and (max-width: $screen-iphone) {
+    height: auto;
+    padding-top: 40px;
   }
-  .company-copyright {
-    font-size: 14px;
-    color: rgba(255,255,255,.7);
-    order: 1;
-  }
-  .social-buttons {
-    margin-left: auto;
-    order: 2;
 
-    @media all and (max-width: $mobile-width) {
-      margin-bottom: 60px;
-    }
-
-    span {
+  .col-lg-3 {
+    @media all and (max-width: $screen-iphone) {
+      width: 50%;
       display: inline-block;
-      width: 22px;
-      height: 22px;
-      margin-left: 18px;
+      vertical-align: top;
+      margin-bottom: 27px;
+    }
 
-      @media all and (max-width: $mobile-width) {
-        margin-left: 0;
-        margin-right: 18px;
+    &:first-child {
+      @media all and (max-width: $screen-iphone) {
+        width: 100%;
       }
     }
-    .facebook {
-      background-image: url('~@/assets/images/sprite.svg');
-      background-position: 36px 145px;
+  }
+
+  &__logo {
+    display: block;
+    @extend %svg-svg--logo-myetherwallet;
+    @extend %svg-svg--logo-myetherwallet-dims;
+  }
+
+  &__link {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    display: block;
+    font-family: $OpenSans;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
     }
-    .twitter {
-      background-image: url('~@/assets/images/sprite.svg');
-      background-position: -183px 193px;
+
+    &:last-child {
+      margin-bottom: 0;
     }
-    .linkedin {
-      background-image: url('~@/assets/images/sprite.svg');
-      background-position: -161px 193px;
+  }
+
+  &__copy {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 121px;
+    font-family: $OpenSans;
+
+    @media all and (max-width: $screen-iphone) {
+      margin-top: 81px;
+      margin-bottom: 29px;
     }
-    .instagram {
-      background-image: url('~@/assets/images/sprite.svg');
-      background-position: -208px 193px;
+  }
+
+  &__social {
+    text-align: right;
+    margin-top: 121px;
+
+    @media all and (max-width: $screen-iphone) {
+      text-align: left;
+      margin-top: 0;
+      position: absolute;
+      left: 13px;
+      bottom: 100px;
     }
-    .reddit {
-      background-image: url('~@/assets/images/sprite.svg');
-      background-position: -232px 193px;
+
+    a {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+
+      @media all and (max-width: $screen-iphone) {
+        margin-left: 0;
+        margin-right: 10px;
+      }
+
+      &.fb {
+        @extend %svg-svg--facebook-logo;
+        @extend %svg-svg--facebook-logo-dims;
+      }
+
+      &.tw {
+        @extend %svg-svg--twitter-logo;
+        @extend %svg-svg--twitter-logo-dims;
+      }
+
+      &.inst {
+        @extend %svg-svg--instagram-logo;
+        @extend %svg-svg--instagram-logo-dims;
+      }
+
+      &.lin {
+        @extend %svg-svg--linkedin-logo;
+        @extend %svg-svg--linkedin-logo-dims;
+      }
+
+      &.gh {
+        @extend %svg-svg--github-logo;
+        @extend %svg-svg--github-logo-dims;
+      }
+
+      &.rt {
+        @extend %svg-svg--reddit-logo;
+        @extend %svg-svg--reddit-logo-dims;
+      }
+
+      &.md {
+        @extend %svg-svg--medium-logo;
+        @extend %svg-svg--medium-logo-dims;
+      }
     }
-    .github {
-      background-image: url('~@/assets/images/sprite.svg');
-      background-position: 36px 193px;
-    }
-    .medium {
-      background-image: url('~@/assets/images/sprite.svg');
-      background-position: 36px 169px;
+  }
+}
+
+#disclaimer {
+  width: 740px;
+
+  @media all and (max-width: $screen-mobile) {
+    width: 100%;
+  }
+
+  p {
+    font-family: $OpenSans;
+    line-height: 32px;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #313131;
+
+    a {
+      font-family: $OpenSans;
+      line-height: 32px;
+      font-size: 16px;
+      letter-spacing: -0.02em;
+      color: #064DD6;
+
+      &:hover { text-decoration: none }
     }
   }
 }

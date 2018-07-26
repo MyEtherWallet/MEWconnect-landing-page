@@ -1,23 +1,75 @@
-  
-.mewteam {
-  padding: 470px 0 70px 0;
-  background-image: url('~@/assets/images/team.jpg');
-  background-size: cover;
-  background-position: center;
+.team {
+  position: relative;
+  font-size: 0;
+  height: 700px;
+  overflow: hidden;
 
-  @media all and (max-width: $mobile-width) {
-    padding: 300px 0 70px 0;
+  @media all and (max-width: $screen-ipad) {
+    height: 600px;
+  }
+
+  @media all and (max-width: $screen-iphone) {
+    height: 550px;
+  }
+
+  &__text {
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+    width: 100%;
+
+    h2 {
+      width: 700px;
+      line-height: 46px;
+      font-size: 42px;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+      margin-top: 0;
+      font-family: $Avenir;
+
+      @media all and (max-width: $screen-ipad) {
+        width: 100%;
+        line-height: 38px;
+        font-size: 24px;
+      }
+    }
+
+    p {
+      font-style: normal;
+      font-weight: normal;
+      line-height: 32px;
+      font-size: 18px;
+      letter-spacing: -0.02em;
+      color: #FFFFFF;
+      margin: 0;
+      width: 700px;
+      font-family: $OpenSans;
+
+      @media all and (max-width: $screen-mobile) {
+        width: 538px;
+      }
+
+      @media all and (max-width: $screen-ipad) {
+        width: 100%;
+        font-size: 16px;
+      }
+    }
+  }
+
+  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 100%;
+
+    @media all and (max-width: $screen-desktop) {
+      max-width: 9999px;
+      max-height: 100%;
+    }
   }
 }
-
-
-.mewteam__block-title {
-  color: white;
-  max-width: 700px;
-  margin-bottom: 35px;
-}
-
-.mewteam__block-text {
-  color: white;
-}
-

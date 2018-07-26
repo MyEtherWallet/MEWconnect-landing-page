@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <Header/>
     <TopIntro/>
     <Security/>
     <Protect/>
@@ -8,7 +7,6 @@
     <Decentralized/>
     <Mewteam/>
     <Comingsoon/>
-    <Footer/>
   </div>
 </template>
 

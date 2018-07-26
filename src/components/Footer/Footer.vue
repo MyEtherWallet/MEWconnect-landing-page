@@ -1,53 +1,52 @@
 <template>
-  <div class="footer">
-    <div class="page-container">
-      <div class="footer__footer-menu">
-        <div class="footer__logo">
-          <div class="mew-logo"></div>
+  <div class="footer" :class="{ 'open': openMenu }">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <a href="https:// www.myetherwallet.com" class="footer__logo"></a>
         </div>
-        <div>
-          <ul>
-            <li><a href="/">About</a></li>
-            <li><a href="/">User guide</a></li>
-            <li><a href="/">Knowledge Base</a></li>
-            <li><a href="/">Disclaimer</a></li>
-          </ul>
+
+        <div class="col-lg-3">
+          <a href="#" class="footer__link">About</a>
+          <a href="#" class="footer__link">User guide</a>
+          <a href="https://myetherwallet.github.io/knowledge-base/" class="footer__link">Knowledge Base</a>
+          <a href="#disclaimer" class="footer__link fancybox">Disclaimer</a>
         </div>
-        <div>
-          <ul>
-            <li><a href="/">MyEtherWallet.com</a></li>
-            <li><a href="/">Team</a></li>
-          </ul>
+
+        <div class="col-lg-3">
+          <a href="https://www.myetherwallet.com/" class="footer__link">MyEtherWallet.com</a>
+          <a href="https://team.myetherwallet.com/" class="footer__link">Team</a>
         </div>
-        <div>
-          <ul>
-            <li><a href="/">Support</a></li>
-            <li><a href="/">Privacy policy</a></li>
-          </ul>
+
+        <div class="col-lg-3">
+          <a href="mailto:support@myetherwallet.com?subject=MEWconnect website support request" class="footer__link">Support</a>
+          <a href="#" class="footer__link">Privacy policy</a>
         </div>
       </div>
-      <div class="footer__note">
-        <div class="social-buttons">
-          <a href=""><span class="facebook"></span></a>
-          <a href=""><span class="twitter"></span></a>
-          <a href=""><span class="instagram"></span></a>
-          <a href=""><span class="linkedin"></span></a>
-          <a href=""><span class="github"></span></a>
-          <a href=""><span class="reddit"></span></a>
-          <a href=""><span class="medium"></span></a>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="footer__copy">© 2018 MyEtherWallet, Inc</div>
         </div>
-        <div class="company-copyright">© 2018 MyEtherWallet, Inc</div>
+        <div class="col-lg-6">
+          <div class="footer__social">
+            <a href="https://www.facebook.com/MyEtherWallet/" class="fb"></a>
+            <a href="https://twitter.com/myetherwallet" class="tw"></a>
+            <a href="https://www.instagram.com/myetherwallet/" class="inst"></a>
+            <a href="https://www.linkedin.com/company/myetherwallet" class="lin"></a>
+            <a href="https://github.com/MyEtherWallet" class="gh"></a>
+            <a href="https://www.reddit.com/r/MyEtherWallet/" class="rt"></a>
+            <a href="https://medium.com/@myetherwallet" class="md"></a>
+          </div>
+        </div>
       </div>
     </div>
-    
   </div>
 </template>
 
 <script>
 export default {
   name: 'Footer',
-  props: {
-  }
+  props: ['openMenu']
 }
 </script>
 

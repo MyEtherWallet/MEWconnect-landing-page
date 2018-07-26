@@ -1,35 +1,16 @@
-.protect {
-  padding: 180px 0;
-  color: #06C0A5;
-  
-  @media all and (max-width: $mobile-width) {
-    padding: $mobile-block-padding;
+.secure {
+  height: 700px;
+
+  @media all and (max-width: $screen-ipad) {
+    height: 600px;
   }
-}
 
-.protect__block-image {
-  margin: 0 auto;
-  background-image: url('~@/assets/images/sprite.svg');
-  background-position: 88.75% 48.07692307692308%;
-  width: 64px;
-  height: 86px;
-}
+  @media all and (max-width: $screen-iphone) {
+    height: 550px;
+  }
 
-
-.protect__block-title {
-  margin: 0 auto;
-  text-align: center;
-  max-width: 700px;
-  margin-top: 20px;
-}
-
-.protect__block-text {
-  margin: 0 auto;
-  margin-top: 30px;
-  text-align: center;
-  max-width: 800px;
-  span {
-    font-weight: 700;
+  .row, .container {
+    height: 100%;
   }
 }
 
