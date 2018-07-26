@@ -1,0 +1,39 @@
+language: node_js
+sudo: required
+dist: trusty
+node_js: '8'
+env:
+  matrix:
+  - CXX=g++-4.8
+  global:
+  - secure: L6J++ClRaJ/sXptBOf2jQYNkBJ9ahJzQyZrm8jB3SOp4THRES1is0JdqrUOHi+eq8fLA+40tfV3kupn7bchGsygwGy9UYHSiUUFdhPc4ZKIaMikyrIBQNLGn+y2oK2uwfEucP8899lMXtVMdJNQckXTMS2trpCXW5D2HqIBUXJLkxUC6e1ylA3hB8rtkMOjpdHLUWxqy9noeP7p5urLFDjP+zxhu+Au/cFHCPWLvYWI44yVqe7XI5JdhKFGPA6ANd+iJd7OU8MXjGEOUSy3HGW43gvMHrTAY6CPABfqbRgL5Hr8XCURGRmbwoyEAIDvh8OXf8ysTnoRuJf1miqlVGYnCBgMhkCK/bCzuLbo4kzTH7sUYUCDG17rPfNVe+YMfc5kn7buyJWn0KeuH3AM1ooRisg/PYHBUwR2g/vXjEQmOwBkDHpDWw9kE2Un+nSQNwVpfAo+nuXv9EUOMYKECiCWcCjPYAwsAPzLkDUOYBrL/AxHImUuCSW7Zb0AFrFTCy24jhm0yWn5RzQNot7X5/Q1UZ5mipfPPg+8aDgZHHhfKZKDh/ZA1osxbHszNIK9gj9N0heIV7Amrkwy9qbQOkDKcPmqFpleI230phqd8mOCI9ZrRRNNYZkh4s3LbwOiVVKZ832bN90sOXCHWBvxoTpV2JdTgmp5cHIcn9vqHdKo=
+  - secure: DdI2kmbsRhY4X0Lc7ctt+MSl9kdeoWE+OPLV9Hn0C6HDJkOievM/WJaT5Xr/HO3deJRwVBuzba9Pv4hlSy9VQ21SfueIoZB4G6HH2mZVbhYN6xe7N+PYj1/UoiJsiu+NwKYkpFfCUgEQwnST4wQR5cIVUPYWY5vm0L8TbXYaPkqQUeFxyjE2/vqzbd73iIijnTGRX9oU2bnyJAbcyiTrNPq01BCyIruHHsOQRfjv3gaGgaNDjFASpIyOeOCrfiViHiCKJsawgjk0eg96oC+wLWeR5BHszytfS6QEpEiX5zA2W8eLNJXcFtiouHuvYkKlfhSejGoK8cF5Ruu86ropO/dvyyxJ1yploTw5MTTex3cCrXhvVVz1AsJkvma38z2vNrlewLmNpwVshh1iw2+9gqN0OiU5k38BHtFfb1UR9gmMyIJTmRb8JgI4cM4RR1AseHKIulfAlBbYrgEQkTXsKon3S3ghadUJr5SgkblPhjmzSJvdNGA7uJ0vGS7tZO0TKAWBfWOA+Fp049eiUBuNtB/PHqNMu38DhbxURr/e7tYRA42oMUmkgVPgD4G2GWLjRtjgqBShvRLxfHBkDaZK2PAOg0GQ+iIHHS8/pvoDsS9wgJgfQ9YpitJ5qppKyStMf4BLebynVrwam0EHE0e7hxxDRxTaRIY47S1SdNfl/bo=
+  - secure: MG6aOAm2D/wGRmd8iyicRtOlBELc7UstacnNWdWVVuomKkW3B8NdFQ1VX2ozm0KGy84ZlsFQ3OzH8lWVdk7cfJFUu/LbhQeUw8coNkQI+xoCaFqavAT+OvgSi7fise2g8Skr+D0Kmm+vkNaPlSCZmUfu1I1B1QAwENBcmNtZqxN26B0Ga3aA1qT6VcJELPiQ6sishXv5kXwgjwndyz0py2gX9rwEYV1RelgaghQPvy6Zy8xvA+E/Ahyvc1VS9ZNOfrk3DBrKJF3CGe71E8msR8/esEk48Rc1Wr2eUBhRPuE9ZVWgxklD25T9XbmSHmC7+cZpJjQm/aYNdUC6/7xKO5CQ+4/plMVy/jbYHJCb+LzHqbz988C5UvW4TpSYanBN0erG4vM3v7d7aZ01fNofANfJbGbvduNrUGMhoJo4I7eqeq+rbsNW7sBWi5URsLoGm6P25+3bc2obOH20ppMMPP4xDUYtTsjyziskNlUjCa/+mE92ibwgNOrIu0j1zRAgFgEtoQlaU8DG/qEvs+7WHLCtBkXnINqA9nDuTjII9J+EPWbYi2vHPyyUk3hKp8BGG8DyWri0rtlUzH0J1LW8edzf98mksPT3udGwogWtG0mkIQsAYNc+HUKAvSgbkyxHlnAZKLAeCo7yBFEMJRTrywPrBt8ysi3RGDunX4sY2RA=
+  - secure: Pu6hzBAn4dd6Ua1M4Qp4wv7vXbpuPGbM7BAYLLks777HnLkVWVduOiCW3KFTS6Y+XwjgPqqNtNTQGP1afKKi9+zNMIz0cF67iSaQMk8wp/ZuJly6++B6paRN8FrV77BmrHfdUX2QN1VhATI0+U9hPSpE7TsPAIPDh4L6KCjKLdEL53WkcGyZ8qmpI/sw1spAymq38E68pW8a8Hb90m3GEt+27+7L2MXw6C4NwEsCjaA/b0BJm7y2veCpxojJENOZhlkR10WojTErltey1JQMEtKOWEAEhsdYB1vGNAcQGnYLq68vPB0VHLK2ljBtOhB4HlT9tMdw8Dak3i4ubpEHRwZBiLFCcnfJR3VjVp9yTA854f3L3sUM2JEG2oQHfBw8isG4w5IQ3pesYsv8L1tBEUI9OURkhxAa2q80BDSO0G9RmXglNG2WIe2dsN1rSz2vAuM978DNA4ncMasEOUbdsnWSN4SopCIQ7vEYgW9YBqNBdKp3Z2emPBJTnNHxiwrLHR4oHpJkm3+PEeT3eTuZ4ndpdUlrT0yki7L5eZslQG+od0YE0t/Im0iN+mz9h3PZrN9MShX/CmSmYdxottVrWjHQDje1St9yq44orew7RsmmKN8fEFJPOdFc6GpDm3sJ9DvjxsKI/dW9vSD3l91b30n9cb8iyvSSF+BoxY6G4L8=
+cache:
+  directories:
+  - node_modules
+addons:
+  apt:
+    sources: ubuntu-toolchain-r-test
+    packages: g++-4.8
+branches:
+  except:
+  - gh-pages
+stages:
+- name: add to mewcbuilds
+  if: type != pull_request
+jobs:
+  fast_finish: true
+  include:
+  - stage: add to mewbuilds
+    before_script:
+    - BASE_URL="build/${TRAVIS_COMMIT}/" npm run build
+    - pip install --user awscli
+    script:
+    - aws s3 sync --acl public-read dist/ s3://mewc-builds/build/$TRAVIS_COMMIT
+    after_success:
+    - |
+      curl -H "Authorization: token ${GITHUB_TOKEN}" -X POST \
+      -d "{\"body\": \"Copy of this build can be found at https://mewc.mewbuilds.com/build/${TRAVIS_COMMIT}/index.html\"}" \
+      "https://api.github.com/repos/${TRAVIS_REPO_SLUG}/commits/${TRAVIS_COMMIT}/comments"
