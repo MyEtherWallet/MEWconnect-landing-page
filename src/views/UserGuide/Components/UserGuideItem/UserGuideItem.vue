@@ -6,7 +6,11 @@
         <ListItem v-for="(listItem, index) in item.list" :item="listItem" :index="index" :key="index" />
     </div>
     <div class="user-guide-item__image">
-        <img :src="item.image" alt="" />
+        <img v-if="item.image === 1" src="~@/assets/images/1.jpg" alt="" />
+        <img v-if="item.image === 2" src="~@/assets/images/2.jpg" alt="" />
+        <img v-if="item.image === 3" src="~@/assets/images/3.jpg" alt="" />
+        <img v-if="item.image === 4" src="~@/assets/images/4.jpg" alt="" />
+        <img v-if="item.image === 5" src="~@/assets/images/5.jpg" alt="" />
     </div>
   </div>
 </template>

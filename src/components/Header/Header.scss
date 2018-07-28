@@ -25,6 +25,11 @@
     vertical-align: middle;
     float: right;
 
+    .router-link-exact-active {
+      color: #313131;
+      opacity: 0.5;
+    }
+
     &-arrow {
       display: inline-block;
       margin-top: -3px;

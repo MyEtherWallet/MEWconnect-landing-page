@@ -7,10 +7,9 @@
         </div>
 
         <div class="col-lg-3">
-          <a href="#" class="footer__link">About</a>
-          <a href="#" class="footer__link">User guide</a>
+          <router-link to="/about" class="footer__link">About</router-link>
+          <router-link to="/user-guide" class="footer__link">User Guide</router-link>
           <a href="https://myetherwallet.github.io/knowledge-base/" class="footer__link">Knowledge Base</a>
-          <a href="#disclaimer" class="footer__link fancybox">Disclaimer</a>
         </div>
 
         <div class="col-lg-3">
@@ -20,7 +19,6 @@
 
         <div class="col-lg-3">
           <a href="mailto:support@myetherwallet.com?subject=MEWconnect website support request" class="footer__link">Support</a>
-          <a href="#" class="footer__link">Privacy policy</a>
         </div>
       </div>
       <div class="row">

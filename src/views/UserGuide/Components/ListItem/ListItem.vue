@@ -1,7 +1,7 @@
 <template>
   <div class="list-item">
-      <div class="list-item__text"><span>{{ index + 1 }}.</span>{{ item.text }}</div>
-      <div class="list-item__description" v-if="item.description.length > 0">{{ item.description }}</div>
+      <div class="list-item__text"><span>{{ index + 1 }}.</span><div v-html="item.text"></div></div>
+      <div class="list-item__description" v-if="item.description.length > 0" v-html="item.description"></div>
   </div>
 </template>
 

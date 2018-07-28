@@ -14,7 +14,7 @@
               <a href="#" class="add-store"></a>
               <a href="#" class="google-play"></a>
             </div>
-            <div class="app__download-desc"><a href="mailto:support@myetherwallet.com?subject=MEWconnect iOS beta test request">Email us</a> if you want to check out MEWconnect&nbsp;Beta.</div>
+            <div class="app__download-desc"><a href="mailto:mewconnectBeta@MyEtherWallet.com?subject=MEWconnect iOS beta test request">Email us</a> if you want to check out MEWconnect&nbsp;Beta.</div>
           </div>
         </div>
       </div>

@@ -7,10 +7,10 @@
                   <UserGuideItem v-for="(item, index) in items" :item="item" :index="index" :key="index" />
 
                   <div class="user-guide__help">
-                      <p>To download the MEWconnect app, visit <a href="#">mewconnect.myetherwallet.com.</a></p>
+                      <p>To download the MEWconnect app, visit <a href="https://mewconnect.myetherwallet.com/">mewconnect.myetherwallet.com</a>.</p>
 
                       <h3>Questions or Concerns?</h3>
-                      <p> Email us at: <a href="#">MEWconnectsupport@myetherwallet.com</a></p>
+                      <p> Email us at: <a href="mailto:mewconnectBeta@MyEtherWallet.com?subject=MEWconnect iOS beta test request">MEWconnectsupport@myetherwallet.com</a></p>
                   </div>
               </div>
           </div>
@@ -29,7 +29,7 @@ export default {
         items: [
           {
             name: 'Create a Wallet',
-            image: 'https://mpolev.ru/mew/pic/user-guide/1.png',
+            image: 1,
             list: [
               {
                 text: 'Open your MEWconnect app.',
@@ -55,7 +55,7 @@ export default {
           },
           {
             name: 'Back it Up',
-            image: 'https://mpolev.ru/mew/pic/user-guide/2.png',
+            image: 2,
             list: [
                 {
                     text: 'Click ‘Back Up Now’.',
@@ -85,14 +85,14 @@ export default {
           },
           {
             name: 'Connect with MEW',
-            image: 'https://mpolev.ru/mew/pic/user-guide/3.png',
+            image: 3,
             list: [
                 {
                     text: 'Unlock your wallet on MEWconnect.',
                     description: ''
                 },
                 {
-                    text: 'Find a desktop computer. Head to the MEW site.',
+                    text: 'Find a desktop computer. Head to the <a href="https://mcbeta.myetherwallet.com/">MEW site</a>.',
                     description: 'Check for the SSL certification that states ‘MyEtherWallet Inc [US]’ in the URL. We recommend the Google Chrome browser.'
                 },
                 {
@@ -115,19 +115,19 @@ export default {
           },
           {
             name: 'Send a Transaction',
-            image: 'https://mpolev.ru/mew/pic/user-guide/4.png',
+            image: 4,
             list: [
                 {
                     text: 'Unlock your wallet on MEWconnect.',
                     description: ''
                 },
                 {
-                    text: 'Connect to the MEW site, as shown above.',
+                    text: 'Connect to the <a href="https://mcbeta.myetherwallet.com/">MEW site</a>, as shown above.',
                     description: ''
                 },
                 {
                     text: 'Follow the process of a regular transaction.',
-                    description: 'Fill in the ‘To Address’, ‘Amount to Send’, and ‘Gas Limit’ fields. If you have any questions, refer to our article on How to Send a Transaction.'
+                    description: 'Fill in the ‘To Address’, ‘Amount to Send’, and ‘Gas Limit’ fields. If you have any questions, refer to our article on <a href="https://kb.myetherwallet.com/send/how-to-send-transaction.html">How to Send a Transaction</a>.'
                 },
                 {
                     text: 'Confirm your transaction on the MEWconnect app.',
@@ -137,7 +137,7 @@ export default {
           },
           {
             name: 'Overview of the Wallet',
-            image: 'https://mpolev.ru/mew/pic/user-guide/5.png',
+            image: 5,
             list: [
                 {
                     text: 'Where to see tokens',

@@ -22,7 +22,7 @@
               </div>
 
               <div class="app__download-desc">
-                Psst... while we are working hard to prepare MEWconnect for iOS for final release, you can <a href="mailto:support@myetherwallet.com?subject=MEWconnect iOS beta test request">drop us a line</a> and we will invite you to test our iOS Beta version.
+                Psst... while we are working hard to prepare MEWconnect for iOS for final release, you can <a href="mailto:mewconnectBeta@MyEtherWallet.com?subject=MEWconnect iOS beta test request">drop us a line</a> and we will invite you to test our iOS Beta version.
               </div>
             </div>
           </div>

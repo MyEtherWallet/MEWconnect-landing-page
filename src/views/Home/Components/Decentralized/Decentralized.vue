@@ -9,7 +9,7 @@
             <div class="col-lg-4">
               <div class="p2p__item">
                 <div class="p2p__item-icon p2p__item-icon--p2p"></div>
-                <h4>No centralized servers</h4>
+                <h4>No centralized servers for communication</h4>
                 <p>No databases. MEWconnect and MyEtherWallet talk via P2P communication.</p>
               </div>
             </div>
