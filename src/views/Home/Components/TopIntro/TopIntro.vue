@@ -14,7 +14,14 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <img src="~@/assets/images/app.png" alt="" />
+            <div class="app__video">
+              <video ref="player" poster="~@/assets/images/app.png" loop="loop">
+                <source src="~@/assets/video/app-video.mp4" type='video/mp4'>
+                <source src="~@/assets/video/app-video.webm" type='video/webm'>
+              </video>
+
+              <a class="app__play" href="javascript:void(0)" v-show="!autoPlay" @click="Play"></a>
+            </div>
             <div class="app__download">
               <div class="app__download-buttons">
                 <a href="#" class="add-store"></a>
@@ -37,7 +44,30 @@
 
 export default {
   name: 'topintro',
+  data () {
+    return {
+       autoPlay: false
+    }
+  },
   components: {
+
+  },
+  mounted () {
+    const video = this.$refs.player;
+
+    if(window.innerWidth > 1024){
+        video.play();
+    }
+  },
+  methods: {
+    Play () {
+      const video = this.$refs.player;
+      video.play();
+      this.autoPlay = true;
+      const self = this;
+
+      video.addEventListener('ended', function(){ self.autoPlay = false; }, false);
+    }
   }
 }
 </script>

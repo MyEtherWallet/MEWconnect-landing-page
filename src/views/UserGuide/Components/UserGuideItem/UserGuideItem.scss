@@ -31,6 +31,17 @@
       margin-top: 0;
       margin-bottom: 20px;
     }
+
+    @media all and (max-width: $screen-mobile) {
+      width: 440px;
+      padding-left: 0;
+      padding-right: 40px;
+    }
+
+    @media all and (max-width: $screen-iphone) {
+      width: 100%;
+      padding: 0;
+    }
   }
 
   &__image {
@@ -38,6 +49,16 @@
     display: inline-block;
     vertical-align: top;
     text-align: right;
+
+    @media all and (max-width: $screen-mobile) {
+      width: calc(100% - 440px);
+    }
+
+    @media all and (max-width: $screen-iphone) {
+      width: 100%;
+      padding: 0;
+      text-align: center;
+    }
 
     img {
       max-width: 300px;
@@ -56,11 +77,26 @@
 
     .user-guide-item__text {
       float: right;
+
+      @media all and (max-width: $screen-mobile) {
+        padding-left: 40px;
+        padding-right: 0;
+      }
+
+      @media all and (max-width: $screen-iphone) {
+        padding: 0;
+        float: none;
+      }
     }
 
     .user-guide-item__image {
       float: right;
       text-align: left;
+
+      @media all and (max-width: $screen-iphone) {
+        float: none;
+        text-align: center;
+      }
     }
   }
 }

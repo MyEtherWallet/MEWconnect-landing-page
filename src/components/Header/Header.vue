@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="header">
-          <router-link to="/" class="logo"><img src="~@/assets/images/logo.svg" alt="" /></router-link>
+          <router-link to="/" class="logo"><img src="~@/assets/images/logo.png" alt="" /></router-link>
 
           <div class="header__menu" :class="{'open': mobileMenuStatus}">
             <router-link to="/user-guide">User Guide</router-link>
@@ -32,7 +32,13 @@ export default {
       this.mobileMenuStatus = !this.mobileMenuStatus
       this.$emit('open', this.mobileMenuStatus)
     }
-  }
+  },
+  watch: {
+    '$route' (to, from) {
+        this.mobileMenuStatus = false
+        this.$emit('open', this.mobileMenuStatus)
+    }
+  },
 }
 </script>
 

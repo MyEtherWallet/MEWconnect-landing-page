@@ -51,12 +51,13 @@
 
 .app {
   margin-top: 84px;
+  position: relative;
 
   @media all and (max-width: $screen-iphone) {
     margin-top: 0;
   }
 
-  img {
+  img, video {
     max-width: calc(100% + 42px);
     margin-top: -84px;
     margin-bottom: 40px;
@@ -171,5 +172,25 @@
         &:hover { text-decoration: none }
       }
     }
+  }
+
+  &__play {
+    background-image: url('data:image/svg+xml;utf8,<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="28" cy="28" r="28" fill="%23E1E2E1"/><path d="M0 1.72853C0 0.959511 0.831806 0.478288 1.49847 0.861621L18.4923 10.6331C19.161 11.0176 19.161 11.9824 18.4923 12.3669L1.49847 22.1384C0.831807 22.5217 0 22.0405 0 21.2715V1.72853Z" transform="translate(21 17)" fill="%23687270" style="mix-blend-mode:luminosity"/></svg>');
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 50%;
+    top: 50%;
+    margin-left: -28px;
+    margin-top: -40px;
+    display: none;
+
+    @media all and (max-width: $screen-ipad) {
+      display: block;
+    }
+  }
+
+  &__video {
+    position: relative;
   }
 }
