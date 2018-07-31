@@ -3,13 +3,13 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-3">
-          <a href="https:// www.myetherwallet.com" class="footer__logo"></a>
+          <a href="https://www.myetherwallet.com" class="footer__logo"></a>
         </div>
 
         <div class="col-lg-3">
           <router-link to="/about" class="footer__link">About</router-link>
           <router-link to="/user-guide" class="footer__link">User Guide</router-link>
-          <a href="https://myetherwallet.github.io/knowledge-base/" class="footer__link">Knowledge Base</a>
+          <a href="https://kb.myetherwallet.com" class="footer__link">Knowledge Base</a>
         </div>
 
         <div class="col-lg-3">
