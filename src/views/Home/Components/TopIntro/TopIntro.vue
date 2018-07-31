@@ -15,7 +15,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="app__video">
-              <video ref="player" poster="~@/assets/images/app.png" loop="loop">
+              <video ref="player" poster="~@/assets/images/app.png" loop="loop" muted>
                 <source src="~@/assets/video/app-video.mp4" type='video/mp4'>
                 <source src="~@/assets/video/app-video.webm" type='video/webm'>
               </video>
@@ -56,7 +56,7 @@ export default {
     const video = this.$refs.player;
 
     if(window.innerWidth > 1024){
-        video.play();
+        this.Play()
     }
   },
   methods: {
@@ -64,9 +64,7 @@ export default {
       const video = this.$refs.player;
       video.play();
       this.autoPlay = true;
-      const self = this;
-
-      video.addEventListener('ended', function(){ self.autoPlay = false; }, false);
+      video.addEventListener('ended', function(){ this.autoPlay = false; }, false);
     }
   }
 }

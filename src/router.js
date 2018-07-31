@@ -6,26 +6,36 @@ import UserGuide from './views/UserGuide/UserGuide.vue'
 
 Vue.use(Router)
 
-export default new Router({
-  mode: 'history',
+const router = new Router({
+  mode: 'hash',
   routes: [
     {
       path: '/',
       name: 'home',
-      component: Home
+      component: Home,
+      meta: {title: 'MEWconnect'}
     },
     {
       path: '/about',
       name: 'about',
-      component: About
+      component: About,
+      meta: {title: 'MEWconnect'}
     },
     {
       path: '/user-guide',
       name: 'user-guide',
-      component: UserGuide
+      component: UserGuide,
+      meta: {title: 'MEWconnect'}
     },
   ],
-  scrollBehavior (to, from, savedPosition) {
+  scrollBehavior () {
     return { x: 0, y: 0 }
   }
 })
+
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title
+  next()
+})
+
+export default router
