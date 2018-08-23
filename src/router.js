@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home/Home.vue'
 import About from './views/About/About.vue'
 import UserGuide from './views/UserGuide/UserGuide.vue'
+import PageNotFound from './views/PageNotFound/PageNotFound'
 
 Vue.use(Router)
 
@@ -27,6 +28,10 @@ const router = new Router({
       component: UserGuide,
       meta: {title: 'MEWconnect'}
     },
+    {
+      path: "*",
+      component: PageNotFound
+    }
   ],
   scrollBehavior () {
     return { x: 0, y: 0 }
