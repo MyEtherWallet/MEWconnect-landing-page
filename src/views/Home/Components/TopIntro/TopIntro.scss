@@ -113,8 +113,12 @@
       }
 
       .add-store {
-        @extend %svg-svg--app-store-m;
-        @extend %svg-svg--app-store-m-dims;
+        // @extend %svg-svg--app-store-m;
+        // @extend %svg-svg--app-store-m-dims;
+
+        img {
+          margin: 0 !important;  
+        }
 
         @media all and (max-width: $screen-iphone) {
           // @extend %svg-svg--App_Store_Badge;

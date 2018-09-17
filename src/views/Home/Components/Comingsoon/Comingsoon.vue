@@ -9,9 +9,11 @@
         </div>
         <div class="col-lg-6">
           <div class="app__download">
-            <div class="app__download-coming">Coming soon</div>
+            <div class="app__download-coming">Download from:</div>
             <div class="app__download-buttons">
-              <a href="#" class="add-store"></a>
+              <a href="https://itunes.apple.com/us/app/mewconnect/id1391097156">
+                <img src="~@/assets/images/appstore.png" height="47" />
+              </a>
               <a href="#" class="google-play"></a>
             </div>
             <div class="app__download-desc"><a href="mailto:mewconnectBeta@MyEtherWallet.com?subject=MEWconnect iOS beta test request">Email us</a> if you want to check out MEWconnect&nbsp;Beta.</div>
