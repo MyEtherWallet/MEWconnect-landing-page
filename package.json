@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-gh-pages": "BASE_URL='MEWconnect-landing-page/' npm run build"
+    "build-gh-pages": "BASE_URL='./' npm run build",
+    "publish": "npm run build-gh-pages && vcg --message='Update live demo'"
   },
   "dependencies": {
     "vue": "^2.5.16",
@@ -19,6 +20,7 @@
     "@vue/cli-service": "^3.0.0-rc.5",
     "node-sass": "^4.9.2",
     "sass-loader": "^7.0.3",
+    "vue-cli-ghpages": "^1.0.0",
     "vue-template-compiler": "^2.5.16"
   }
 }
