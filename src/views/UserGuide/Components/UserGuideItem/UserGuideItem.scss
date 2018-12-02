@@ -1,102 +1,51 @@
 @import '~@/assets/scss/global-variables.scss';
 
 .user-guide-item {
-  padding-bottom: 41px;
-  margin-bottom: 48px;
+  margin-bottom: 80px;
   position: relative;
   font-size: 0;
 
-  &:before {
-    content: '';
-    width: calc(100% + 244px);
-    left: -122px;
-    height: 1px;
-    background-color: $header--border-bottom--color;
-    position: absolute;
-    bottom: 0;
+  @media all and (max-width: $screen-iphone) {
+    margin-bottom: 60px;
   }
 
-  &__text {
-    width: 400px;
-    display: inline-block;
-    vertical-align: top;
+  h3 {
+    font-family: $OpenSans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
 
-    h3 {
-      font-family: $OpenSans;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 24px;
-      color: #313131;
-      line-height: 32px;
-      margin-top: 0;
-      margin-bottom: 20px;
-    }
+  &__video {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-bottom: 20px;
+    height: 0;
+    overflow: hidden;
 
-    @media all and (max-width: $screen-mobile) {
-      width: 440px;
-      padding-left: 0;
-      padding-right: 40px;
+    iframe, object, embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
     }
+  }
+
+  p {
+    font-family: $OpenSans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 32px;
+    font-size: 18px;
+    color: #000000;
 
     @media all and (max-width: $screen-iphone) {
-      width: 100%;
-      padding: 0;
-    }
-  }
-
-  &__image {
-    width: calc(100% - 400px);
-    display: inline-block;
-    vertical-align: top;
-    text-align: right;
-
-    @media all and (max-width: $screen-mobile) {
-      width: calc(100% - 440px);
-    }
-
-    @media all and (max-width: $screen-iphone) {
-      width: 100%;
-      padding: 0;
-      text-align: center;
-    }
-
-    img {
-      max-width: 300px;
-      width: 100%;
-    }
-  }
-
-  &.reverse {
-    &:after {
-      content: '';
-      display: block;
-      width: 100%;
-      height: 0;
-      clear: both;
-    }
-
-    .user-guide-item__text {
-      float: right;
-
-      @media all and (max-width: $screen-mobile) {
-        padding-left: 40px;
-        padding-right: 0;
-      }
-
-      @media all and (max-width: $screen-iphone) {
-        padding: 0;
-        float: none;
-      }
-    }
-
-    .user-guide-item__image {
-      float: right;
-      text-align: left;
-
-      @media all and (max-width: $screen-iphone) {
-        float: none;
-        text-align: center;
-      }
+      font-size: 16px;
     }
   }
 }

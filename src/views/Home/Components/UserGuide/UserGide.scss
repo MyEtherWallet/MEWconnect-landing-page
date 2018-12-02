@@ -1,0 +1,88 @@
+@import '~@/assets/scss/global-iconset.scss';
+
+.user-guide-home {
+  border-top: 2px solid #E1E2E1;
+  padding: 40px 0;
+
+  &__link {
+    display: inline-block;
+    vertical-align: middle;
+
+    img {
+      width: 100%;
+      max-width: 320px;
+
+      @media all and (max-width: $screen-mobile) {
+        max-width: 280px;
+      }
+
+      @media all and (max-width: $screen-iphone) {
+        max-width: 320px;
+      }
+    }
+
+    @media all and (max-width: $screen-iphone) {
+      display: block;
+      text-align: center;
+      margin-bottom: 26px;
+    }
+  }
+
+
+  &__text {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 320px);
+    padding-left: 60px;
+    box-sizing: border-box;
+
+    @media all and (max-width: $screen-mobile) {
+      padding-left: 20px;
+      width: calc(100% - 280px);
+    }
+
+    @media all and (max-width: $screen-iphone) {
+      padding-left: 0;
+      width: 100%;
+      display: block;
+    }
+
+    h3 {
+      font-family: $OpenSans;
+      font-style: normal;
+      font-weight: bold;
+      line-height: normal;
+      font-size: 24px;
+      color: #000000;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-family: $OpenSans;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 32px;
+      font-size: 18px;
+      color: #000000;
+
+      @media all and (max-width: $screen-iphone) {
+        font-size: 16px;
+      }
+
+      a {
+        font-family: $OpenSans;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 32px;
+        font-size: 18px;
+        color: #064DD6;
+
+        @media all and (max-width: $screen-iphone) {
+          font-size: 16px;
+        }
+
+        &:hover { text-decoration: none }
+      }
+    }
+  }
+}

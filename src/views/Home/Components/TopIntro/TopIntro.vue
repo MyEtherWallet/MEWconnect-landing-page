@@ -29,6 +29,9 @@
                 </a>
                 <a href="#" class="google-play"></a>
               </div>
+              <div class="app__download-desc">
+                Psst... while we are working hard to prepare MEWconnect for Android for final release, you can <a href="mailto:MEWconnectBeta@MyEtherWallet.com?subject=MEWconnect Android Beta Request">drop us a line</a> and we will invite you to test our Android Beta version
+              </div>
             </div>
           </div>
         </div>
@@ -51,8 +54,6 @@ export default {
 
   },
   mounted () {
-    const video = this.$refs.player;
-
     if(window.innerWidth > 1024){
         this.Play()
     }

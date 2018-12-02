@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <TopIntro/>
+    <UserGuide />
     <Security/>
     <Protect/>
     <Phishers/>
@@ -14,6 +15,7 @@
 // @ is an alias to /src
 import Header from '@/components/Header/Header.vue'
 import TopIntro from '@/views/Home/Components/TopIntro/TopIntro.vue'
+import UserGuide from '@/views/Home/Components/UserGuide/UserGuide.vue'
 import Security from '@/views/Home/Components/Security/Security.vue'
 import Protect from '@/views/Home/Components/Protect/Protect.vue'
 import Phishers from '@/views/Home/Components/Phishers/Phishers.vue'
@@ -27,6 +29,7 @@ export default {
   components: {
     Header,
     TopIntro,
+    UserGuide,
     Security,
     Protect,
     Phishers,

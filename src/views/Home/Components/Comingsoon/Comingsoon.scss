@@ -19,7 +19,7 @@
     position: relative;
 
     @media all and (max-width: $screen-mobile) {
-      margin-bottom: 0;
+      margin-bottom: -18px;
     }
 
     @media all and (max-width: $screen-iphone) {
@@ -94,7 +94,7 @@
   .app__download-coming {
     @media all and (max-width: $screen-iphone) {
       position: absolute;
-      bottom: 452px;
+      bottom: 470px;
       left: 0;
       font-size: 24px;
       line-height: 28px;
