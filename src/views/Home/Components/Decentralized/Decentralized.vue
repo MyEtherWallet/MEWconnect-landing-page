@@ -18,7 +18,7 @@
               <div class="p2p__item">
                 <div class="p2p__item-icon p2p__item-icon--no-data"></div>
                 <h4>No data collection</h4>
-                <p>MyEtherWallet can’t collect your personal data even if we wanted to.<br />Don’t believe us?<br />Check out our <a href="#">privacy policy</a>.</p>
+                <p>MyEtherWallet can’t collect your personal data even if we wanted to.<br />Don’t believe us?<br />Check out our <a href="https://www.myetherwallet.com/privacy-policy.html">privacy policy</a>.</p>
               </div>
             </div>
 

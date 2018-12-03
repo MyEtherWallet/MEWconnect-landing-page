@@ -16,7 +16,7 @@
               </a>
               <a href="#" class="google-play"></a>
             </div>
-            <div class="app__download-desc"><a href="mailto:MEWconnectBeta@MyEtherWallet.com?subject=MEWconnect Android Beta Request">Email us</a> if you want to check out MEWconnect&nbsp;Beta.</div>
+            <div class="app__download-desc"><a href="mailto:MEWconnectBeta@MyEtherWallet.com?subject=MEWconnect Android Beta Request">Email us</a> if you want to check out MEWconnect Android Beta.</div>
           </div>
         </div>
       </div>

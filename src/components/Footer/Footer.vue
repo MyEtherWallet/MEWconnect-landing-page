@@ -19,6 +19,7 @@
 
         <div class="col-lg-3">
           <a href="mailto:support@myetherwallet.com?subject=MEWconnect website support request" class="footer__link">Support</a>
+          <a href="https://www.myetherwallet.com/privacy-policy.html" class="footer__link">Privacy policy</a>
         </div>
       </div>
       <div class="row">
