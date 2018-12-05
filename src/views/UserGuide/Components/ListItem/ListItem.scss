@@ -1,0 +1,91 @@
+@import '~@/assets/scss/global-variables.scss';
+
+.list-item {
+  margin-bottom: 20px;
+
+  &__text {
+    font-family: $OpenSans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 32px;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    color: #313131;
+    margin-bottom: 10px;
+    position: relative;
+
+    @media all and (max-width: $screen-ipad-m) {
+      padding-left: 40px;
+    }
+
+    @media all and (max-width: $screen-iphone) {
+      line-height: 32px;
+      font-size: 16px;
+    }
+
+    a {
+      color: #064DD6;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 32px;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      font-family: $OpenSans;
+
+      @media all and (max-width: $screen-iphone) {
+        line-height: 32px;
+        font-size: 16px;
+      }
+
+      &:hover { text-decoration: none }
+    }
+
+    span {
+      position: absolute;
+      left: -40px;
+      top: 0;
+
+      @media all and (max-width: $screen-ipad-m) {
+        left: 0;
+      }
+    }
+  }
+
+  &__description {
+    font-family: $OpenSans;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 32px;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    color: #313131;
+
+    @media all and (max-width: $screen-ipad-m) {
+      padding-left: 40px;
+    }
+
+    @media all and (max-width: $screen-iphone) {
+      line-height: 32px;
+      font-size: 16px;
+    }
+
+    a {
+      color: #064DD6;
+      font-style: italic;
+      font-weight: normal;
+      line-height: 32px;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      font-family: $OpenSans;
+
+      @media all and (max-width: $screen-iphone) {
+        line-height: 32px;
+        font-size: 16px;
+      }
+
+      &:hover { text-decoration: none }
+    }
+  }
+}

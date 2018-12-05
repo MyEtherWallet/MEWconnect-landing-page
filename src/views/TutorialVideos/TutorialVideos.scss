@@ -1,0 +1,34 @@
+@import '~@/assets/scss/global-variables.scss';
+
+.tutorial-videos {
+  margin-top: 41px;
+  margin-bottom: 104px;
+
+  h2 {
+    font-family: $Avenir;
+    font-size: 42px;
+    line-height: 46px;
+    margin-bottom: 50px;
+    margin-top: 0;
+
+    @media all and (max-width: $screen-iphone) {
+      line-height: 32px;
+      font-size: 30px;
+      letter-spacing: .01em;
+    }
+  }
+
+  .container {
+    padding: 0 122px;
+
+    @media all and (max-width: $screen-ipad-m) {
+      padding-right: 22px;
+      padding-left: 22px;
+    }
+
+    @media all and (max-width: $screen-iphone) {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+  }
+}

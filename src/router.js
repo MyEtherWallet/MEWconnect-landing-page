@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home/Home.vue'
 import About from './views/About/About.vue'
 import UserGuide from './views/UserGuide/UserGuide.vue'
+import TutorialVideos from './views/TutorialVideos/TutorialVideos'
 import PageNotFound from './views/PageNotFound/PageNotFound'
 
 Vue.use(Router)
@@ -20,13 +21,19 @@ const router = new Router({
       path: '/about',
       name: 'about',
       component: About,
-      meta: {title: 'MEWconnect'}
+      meta: {title: 'MEWconnect About'}
     },
     {
       path: '/user-guide',
       name: 'user-guide',
       component: UserGuide,
-      meta: {title: 'MEWconnect'}
+      meta: {title: 'MEWconnect User Guide'}
+    },
+    {
+      path: '/tutorial-videos',
+      name: 'tutorial-videos',
+      component: TutorialVideos,
+      meta: {title: 'MEWconnect Tutorial Videos'}
     },
     {
       path: "*",
