@@ -4,11 +4,13 @@
       <div class="row">
         <div class="col-lg-12">
           <router-link to="/user-guide" class="user-guide-home__link">
-            <img src="~@/assets/images/user-guide.png" alt="" />
+            <img src="~@/assets/images/user-guide.png" alt>
           </router-link>
           <div class="user-guide-home__text">
-            <h3>User guide</h3>
-            <p>This is our informational series dedicated to showing users all the workings of our MEWconnect smartphone app. <router-link to="/user-guide">Learn more.</router-link></p>
+            <h3>Tutorial Videos</h3>
+            <p>This is our informational series dedicated to showing users all the workings of our MEWconnect smartphone app.
+              <router-link to="/tutorial-videos">Learn more.</router-link>
+            </p>
           </div>
         </div>
       </div>
@@ -20,25 +22,19 @@
 // @ is an alias to /src
 
 export default {
-  name: 'user-guide-home',
-  data () {
+  name: "user-guide-home",
+  data() {
     return {
-       autoPlay: false
-    }
+      autoPlay: false
+    };
   },
-  components: {
-
-  },
-  mounted () {
-
-  },
-  methods: {
-
-  }
-}
+  components: {},
+  mounted() {},
+  methods: {}
+};
 </script>
 
 <style lang="scss">
-@import '~@/assets/scss/global-styles.scss';
-@import 'UserGide.scss';
+@import "~@/assets/scss/global-styles.scss";
+@import "UserGide.scss";
 </style>
