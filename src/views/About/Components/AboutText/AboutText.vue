@@ -7,7 +7,7 @@
 
           <div class="about-text__text">
             <p>MEWconnect is a simple, powerful new app for your mobile device that enables a better, more secure way of managing your Ethereum assets and ERC-20 Tokens. It is an official mobile software brought by MyEtherWallet Inc, currently available only on IOS for iPhone 5 and above.</p>
-            <p>MEWconnect generates a new wallet then encrypts your private key and then stores it in isolation using your device’s built-in security architecture. The app establishes a secure connection while keeping your private key separate from the browser. The software implements two-factor authentication, protecting you from unauthorized transaction broadcasting on the blockchain. Only you will be able to verify and sign the transaction. MyEtherWallet will never collect any of your personal data, all of your information will only be stored on your mobile device. </p>
+            <p>MEWconnect generates a new wallet then encrypts your private key and stores it in isolation using your device’s built-in security architecture. The app establishes a secure connection while keeping your private key separate from the browser. The software implements two-factor authentication, protecting you from unauthorized transaction broadcasting on the blockchain. Only you will be able to verify and sign the transaction. MyEtherWallet will never collect any of your personal data, all of your information will only be stored on your mobile device. </p>
             <p>With added layers of security, MEWconnect puts you in total control of your crypto assets.</p>
             <p>Please review Terms and Privacy Policy. Use of MEWconnect constitutes acceptance of these provisions.</p>
           </div>

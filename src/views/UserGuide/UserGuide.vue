@@ -48,7 +48,7 @@ export default {
                 },
                 {
                     text: 'Click ‘Start using MEWconnect’.',
-                    description: 'You’re done! You’ll be taken to a screen that shows your new wallets address backed by a unique color-code. On this screen you’ll find all your ETH and tokens. There is also a handy ‘Share’ button next to your address, in case you want to send it to someone.'
+                    description: "You’re done! You’ll be taken to a screen that shows your new wallet's address backed by a unique color-code. On this screen you’ll find all your ETH and tokens. There is also a handy ‘Share’ button next to your address, in case you want to send it to someone."
                 }
             ]
           },
@@ -130,7 +130,7 @@ export default {
                 },
                 {
                     text: 'Confirm your transaction on the MEWconnect app.',
-                    description: 'You’re done! Your transaction is broadcasting to the network, and you’ll be able to check it’s status shortly with a provided transaction ID.'
+                    description: 'You’re done! Your transaction is broadcasting to the network, and you’ll be able to check its status shortly with a provided transaction ID.'
                 }
             ]
           },
