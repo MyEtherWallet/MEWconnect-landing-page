@@ -24,7 +24,10 @@
             </div>
             <div class="app__download">
               <div class="app__download-buttons">
-                <a href="https://itunes.apple.com/us/app/mewconnect/id1391097156" class="add-store">
+                <a v-if="iPad" href="javascript:void(0)" @click="toStore" class="add-store">
+                  <img src="~@/assets/images/appstore.png" height="47" />
+                </a>
+                <a v-else href="https://itunes.apple.com/us/app/mewconnect/id1391097156" class="add-store">
                   <img src="~@/assets/images/appstore.png" height="47" />
                 </a>
                 <a href="#" class="google-play"></a>
@@ -42,21 +45,21 @@
 
 <script>
 // @ is an alias to /src
+import platform from 'platform';
 
 export default {
   name: 'topintro',
   data () {
     return {
-       autoPlay: false
+       autoPlay: false,
+       iPad: false
     }
-  },
-  components: {
-
   },
   mounted () {
     if(window.innerWidth > 1024){
         this.Play()
     }
+    this.iPad = platform.product === 'iPad'
   },
   methods: {
     Play () {
@@ -64,6 +67,11 @@ export default {
       video.play();
       this.autoPlay = true;
       video.addEventListener('ended', function(){ this.autoPlay = false; }, false);
+    },
+    toStore() {
+      if (window.confirm('MEWconnect is not optimized for iPad, we don\'t recommend using the app on this device')) {
+        window.location.href = 'https://itunes.apple.com/us/app/mewconnect/id1391097156';
+      }
     }
   }
 }

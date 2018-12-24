@@ -11,7 +11,10 @@
           <div class="app__download">
             <div class="app__download-coming">Download from:</div>
             <div class="app__download-buttons">
-              <a href="https://itunes.apple.com/us/app/mewconnect/id1391097156">
+              <a v-if="iPad" href="javascript:void(0)" @click="toStore">
+                <img src="~@/assets/images/appstore.png" height="47" />
+              </a>
+              <a v-else href="https://itunes.apple.com/us/app/mewconnect/id1391097156">
                 <img src="~@/assets/images/appstore.png" height="47" />
               </a>
               <a href="#" class="google-play"></a>
@@ -25,9 +28,24 @@
 </template>
 
 <script>
+import platform from 'platform';
+
 export default {
   name: 'comingsoon',
-  components: {
+  data () {
+    return {
+      iPad: false
+    }
+  },
+  mounted () {
+    this.iPad = platform.product === 'iPad'
+  },
+  methods: {
+    toStore() {
+      if (window.confirm('MEWconnect is not optimized for iPad, we don\'t recommend using the app on this device')) {
+         window.location.href = 'https://itunes.apple.com/us/app/mewconnect/id1391097156';
+      }
+    }
   }
 }
 </script>
