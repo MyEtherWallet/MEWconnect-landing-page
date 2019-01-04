@@ -38,7 +38,12 @@
                   <img src="~@/assets/images/google-play-badge-2.svg" height="47">
                 </a>
               </div>
-              <div class="app__download-desc"></div>
+              <div class="app__download-desc">
+                Psst...MEWconnect is here, so let us know what you think? If you have any feedback for us,
+                <a
+                  href="mailto:support@MyEtherWallet.com?subject=MEWconnect Android Request"
+                >get in touch</a>! MEWconnect belongs to you, so help us make it better.
+              </div>
             </div>
           </div>
         </div>

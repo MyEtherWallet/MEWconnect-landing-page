@@ -21,11 +21,7 @@
                 <img src="~@/assets/images/google-play-badge-2.svg" height="47">
               </a>
             </div>
-            <div class="app__download-desc">
-              <a
-                href="mailto:MEWconnectBeta@MyEtherWallet.com?subject=MEWconnect Android Beta Request"
-              >Email us</a> if you want to check out MEWconnect Android Beta.
-            </div>
+            <div class="app__download-desc"></div>
           </div>
         </div>
       </div>
