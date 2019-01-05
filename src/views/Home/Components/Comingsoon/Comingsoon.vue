@@ -9,7 +9,7 @@
         </div>
         <div class="col-lg-6">
           <div class="app__download">
-            <div class="app__download-coming">Download from:</div>
+            <div class="app__download-coming">Get the app</div>
             <div class="app__download-buttons">
               <a v-if="iPad" href="javascript:void(0)" @click="toStore">
                 <img src="~@/assets/images/App_Store_Badge.svg" height="47">
