@@ -34,7 +34,7 @@
                 >
                   <img src="~@/assets/images/App_Store_Badge.svg" height="47">
                 </a>
-                <a href="#" class="add-store">
+                <a href="https://play.google.com/store/apps/details?id=com.myetherwallet.mewconnect" class="add-store">
                   <img src="~@/assets/images/google-play-badge-2.svg" height="47">
                 </a>
               </div>
