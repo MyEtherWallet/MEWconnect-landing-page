@@ -2,7 +2,7 @@
 @import '~@/assets/scss/global-iconset.scss';
 
 .h-wrap {
-  @media all and (max-width: $screen-iphone) {
+  @media all and (max-width: $screen-menu) {
     background-color: #ffffff;
     position: relative;
     z-index: 3;
@@ -15,7 +15,7 @@
   position: relative;
   z-index: 3;
 
-  @media all and (max-width: $screen-iphone) {
+  @media all and (max-width: $screen-menu) {
     padding: 20px 0;
     height: 80px;
   }
@@ -38,12 +38,12 @@
       @extend %svg-svg--arrow-dims;
     }
 
-    @media all and (max-width: $screen-iphone) {
+    @media all and (max-width: $screen-menu) {
       display: none;
     }
 
     &.open {
-      @media all and (max-width: $screen-iphone) {
+      @media all and (max-width: $screen-menu) {
         position: absolute;
         width: calc(100% + 40px);
         left: -20px;
@@ -69,7 +69,7 @@
 
       &:hover { text-decoration: underline }
 
-      @media all and (max-width: $screen-iphone) {
+      @media all and (max-width: $screen-menu) {
         display: block;
         text-align: left;
         line-height: 22px;
@@ -90,7 +90,7 @@
         @extend %svg-svg--close-dims;
       }
 
-      @media all and (max-width: $screen-iphone) {
+      @media all and (max-width: $screen-menu) {
         display: inline-block;
       }
     }
@@ -107,7 +107,7 @@
     max-width: 100%;
   }
 
-  @media all and (max-width: $screen-iphone) {
+  @media all and (max-width: $screen-menu) {
     -moz-transform: scale(0.6666);
     -webkit-transform: scale(0.6666);
     -o-transform: scale(0.6666);
