@@ -15,12 +15,14 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="app__video">
+              <img src="~@/assets/images/app.png" alt="" />
+              <!--
               <video ref="player" poster="~@/assets/images/app.png" loop="loop" muted>
                 <source src="~@/assets/video/app-video.mp4" type="video/mp4">
                 <source src="~@/assets/video/app-video.webm" type="video/webm">
               </video>
-              
-              <a class="app__play" href="javascript:void(0)" v-show="!autoPlay" @click="Play"></a>
+              -->
+              <!-- <a class="app__play" href="javascript:void(0)" v-show="!autoPlay" @click="Play"></a> -->
             </div>
             <div class="app__download">
               <div class="app__download-buttons">

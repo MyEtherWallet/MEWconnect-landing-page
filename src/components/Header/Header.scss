@@ -20,6 +20,23 @@
   &__download {
     display: none;
 
+    a {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 5px;
+
+      &:first-child { margin-left: 0 }
+      &:last-child { margin-right: 0 }
+    }
+
+    &.open {
+      @media all and (max-width: $screen-menu) {
+        display: block !important;
+        float: none;
+        margin-top: 7px;
+      }
+    }
+
     @media all and (max-width: $screen-menu) {
       position: absolute;
       width: calc(100% + 40px);
@@ -30,7 +47,6 @@
       padding-bottom: 30px;
       padding-top: 10px;
       padding-left: 30px;
-      display: block !important;
     }
   }
 
@@ -187,21 +203,6 @@
 
       @media all and (max-width: $screen-menu) {
         display: none;
-
-        &.open {
-          display: block;
-          float: none;
-          margin-top: 7px;
-        }
-      }
-
-      a {
-        display: inline-block;
-        vertical-align: top;
-        margin: 0 10px;
-
-        &:first-child { margin-left: 0 }
-        &:last-child { margin-right: 0 }
       }
     }
   }
