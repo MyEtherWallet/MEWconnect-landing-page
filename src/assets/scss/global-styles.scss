@@ -20,6 +20,14 @@ html {
   overflow-x: hidden;
 }
 
+body.fixed {
+  margin-top: 124px;
+
+  @media all and (max-width: $screen-menu) {
+    margin-top: 80px;
+  }
+}
+
 * {
   box-sizing: border-box;
 }

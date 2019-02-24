@@ -14,6 +14,25 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   position: relative;
   z-index: 3;
+  background-color: #ffffff;
+  max-width: 940px;
+
+  &__download {
+    display: none;
+
+    @media all and (max-width: $screen-menu) {
+      position: absolute;
+      width: calc(100% + 40px);
+      left: -20px;
+      top: 302px;
+      background-color: #ffffff;
+      z-index: 3;
+      padding-bottom: 30px;
+      padding-top: 10px;
+      padding-left: 30px;
+      display: block !important;
+    }
+  }
 
   @media all and (max-width: $screen-menu) {
     padding: 20px 0;
@@ -51,7 +70,7 @@
         background-color: #ffffff;
         z-index: 3;
         padding-top: 20px;
-        display: block;
+        display: block !important;
       }
     }
 
@@ -114,5 +133,76 @@
     transform: scale(0.6666);
     margin-left: -43px;
     margin-top: -10px;
+  }
+}
+
+.header-wrap {
+  position: relative;
+  z-index: 3;
+  background-color: #ffffff;
+  border-bottom: 0 none;
+
+  &.fixed {
+    position: fixed;
+    border-bottom: 0 none;
+    top: 0;
+    width: 100%;
+
+    .header {
+      padding: 10px 0;
+
+      @media all and (max-width: $screen-menu) {
+        padding: 20px 0;
+        border-bottom: 0 none;
+      }
+    }
+
+    .header__menu {
+      display: none;
+    }
+
+    .logo {
+      width: 270px;
+      height: 60px;
+
+      img {
+        height: 60px;
+
+        @media all and (max-width: $screen-menu) {
+          height: 63px;
+        }
+      }
+
+      @media all and (max-width: $screen-menu) {
+        width: 284px;
+        height: 63px;
+      }
+    }
+
+    .header__download {
+      display: inline-block;
+      vertical-align: middle;
+      float: right;
+      margin-top: 7px;
+
+      @media all and (max-width: $screen-menu) {
+        display: none;
+
+        &.open {
+          display: block;
+          float: none;
+          margin-top: 7px;
+        }
+      }
+
+      a {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 10px;
+
+        &:first-child { margin-left: 0 }
+        &:last-child { margin-right: 0 }
+      }
+    }
   }
 }
