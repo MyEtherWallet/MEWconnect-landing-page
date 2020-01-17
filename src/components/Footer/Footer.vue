@@ -18,13 +18,19 @@
         </div>
 
         <div class="col-lg-3">
-          <a href="mailto:support@myetherwallet.com?subject=MEWconnect website support request" class="footer__link">Support</a>
-          <a href="https://www.myetherwallet.com/privacy-policy.html" class="footer__link">Privacy policy</a>
+          <a
+            href="mailto:support@myetherwallet.com?subject=MEWconnect website support request"
+            class="footer__link"
+          >Support</a>
+          <a
+            href="https://www.myetherwallet.com/privacy-policy.html"
+            class="footer__link"
+          >Privacy policy</a>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6">
-          <div class="footer__copy">© 2018 MyEtherWallet, Inc</div>
+          <div class="footer__copy">© 2020 MyEtherWallet, Inc</div>
         </div>
         <div class="col-lg-6">
           <div class="footer__social">
@@ -44,12 +50,12 @@
 
 <script>
 export default {
-  name: 'Footer',
-  props: ['openMenu']
-}
+  name: "Footer",
+  props: ["openMenu"]
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import 'Footer.scss';
+@import "Footer.scss";
 </style>
