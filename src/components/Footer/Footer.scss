@@ -22,6 +22,13 @@
     }
   }
 
+  .footer__social {
+    a {
+      color: #FFFFFF;
+      font-size: 20px;
+    }
+  }
+
   @media all and (max-width: $screen-iphone) {
     height: auto;
     padding-top: 40px;
@@ -139,6 +146,10 @@
       &.md {
         @extend %svg-svg--medium-logo;
         @extend %svg-svg--medium-logo-dims;
+      }
+      &.tg {
+        @extend %svg-svg--telegram-logo;
+        @extend %svg-svg--telegram-logo-dims;
       }
     }
   }
