@@ -8,6 +8,7 @@
     <Decentralized/>
     <Mewteam/>
     <Comingsoon/>
+    <Banner/>
   </div>
 </template>
 
@@ -23,6 +24,7 @@ import Decentralized from '@/views/Home/Components/Decentralized/Decentralized.v
 import Mewteam from '@/views/Home/Components/Mewteam/Mewteam.vue'
 import Comingsoon from '@/views/Home/Components/Comingsoon/Comingsoon.vue'
 import Footer from '@/components/Footer/Footer.vue'
+import Banner from '@/views/Home/Components/Banner/Banner.vue'
 
 export default {
   name: 'home',
@@ -36,7 +38,8 @@ export default {
     Decentralized,
     Mewteam,
     Comingsoon,
-    Footer
+    Footer,
+    Banner
   }
 }
 </script>
