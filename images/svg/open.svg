@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="10px" viewBox="0 0 16 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icons/Hamburger menu</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04.-Mobile" transform="translate(-272.000000, -51.000000)">
+            <g id="Icons/Buttons/Hamburger-menu" transform="translate(264.000000, 40.000000)">
+                <g id="hamburger.menu">
+                    <rect id="bounds" x="0" y="0" width="32" height="32"></rect>
+                    <line x1="9" y1="20" x2="23" y2="20" id="Line" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+                    <line x1="9" y1="12" x2="23" y2="12" id="Line" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

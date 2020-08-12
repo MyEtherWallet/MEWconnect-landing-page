@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="6px" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon/Dropdown</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.-Desktop-large---from-1208" transform="translate(-1157.000000, -63.000000)">
+            <g id="Top-menu">
+                <g id="mewtools.button" transform="translate(1034.000000, 48.000000)">
+                    <g id="Icons/Buttons/Dropdown" transform="translate(118.000000, 8.000000)">
+                        <g id="dropdown.button">
+                            <rect id="bounds" x="0" y="0" width="20" height="20"></rect>
+                            <polyline id="Line" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="13.5 8.5 10 12 6.5 8.5"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

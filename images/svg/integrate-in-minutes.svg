@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icons/How it works/Integrate in minutes</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.-Desktop-large---from-1208" transform="translate(-140.000000, -1432.000000)">
+            <g id="Group-2" transform="translate(100.000000, 1392.000000)">
+                <g id="Group-3">
+                    <g id="Icons/How-it-works/Integrate-in-minutes" transform="translate(40.000000, 40.000000)">
+                        <g id="integrate.icon">
+                            <circle id="Oval" stroke="#05C0A5" stroke-width="3.75" fill-opacity="0.0532124126" fill="#05C0A5" cx="40" cy="40" r="38.125"></circle>
+                            <circle id="Oval" fill="#05C0A5" cx="40" cy="40" r="5"></circle>
+                            <g id="Group-2" transform="translate(40.241045, 40.287267) rotate(50.000000) translate(-40.241045, -40.287267) translate(39.241045, 10.287267)" stroke="#05C0A5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.75">
+                                <line x1="0.625" y1="0" x2="0.625" y2="40" id="Line"></line>
+                            </g>
+                            <g id="Group" transform="translate(10.000000, 10.000000)" stroke="#05C0A5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+                                <line x1="30" y1="0" x2="30" y2="3.75" id="Line-2"></line>
+                                <line x1="30" y1="56.25" x2="30" y2="60" id="Line-2"></line>
+                                <line x1="44.0625" y1="3.76803552" x2="44.0625" y2="7.51803552" id="Line-2" transform="translate(44.062500, 5.643036) rotate(30.000000) translate(-44.062500, -5.643036) "></line>
+                                <line x1="15.9375" y1="52.4819645" x2="15.9375" y2="56.2319645" id="Line-2" transform="translate(15.937500, 54.356964) rotate(30.000000) translate(-15.937500, -54.356964) "></line>
+                                <line x1="54.3569645" y1="14.0625" x2="54.3569645" y2="17.8125" id="Line-2" transform="translate(54.356964, 15.937500) rotate(60.000000) translate(-54.356964, -15.937500) "></line>
+                                <line x1="5.64303552" y1="42.1875" x2="5.64303552" y2="45.9375" id="Line-2" transform="translate(5.643036, 44.062500) rotate(60.000000) translate(-5.643036, -44.062500) "></line>
+                                <line x1="58.125" y1="28.125" x2="58.125" y2="31.875" id="Line-2" transform="translate(58.125000, 30.000000) rotate(90.000000) translate(-58.125000, -30.000000) "></line>
+                                <line x1="1.875" y1="28.125" x2="1.875" y2="31.875" id="Line-2" transform="translate(1.875000, 30.000000) rotate(90.000000) translate(-1.875000, -30.000000) "></line>
+                                <line x1="44.0625" y1="52.4819645" x2="44.0625" y2="56.2319645" id="Line-2" transform="translate(44.062500, 54.356964) rotate(150.000000) translate(-44.062500, -54.356964) "></line>
+                                <line x1="15.9375" y1="3.76803552" x2="15.9375" y2="7.51803552" id="Line-2" transform="translate(15.937500, 5.643036) rotate(150.000000) translate(-15.937500, -5.643036) "></line>
+                                <line x1="54.3569645" y1="42.1875" x2="54.3569645" y2="45.9375" id="Line-2" transform="translate(54.356964, 44.062500) rotate(120.000000) translate(-54.356964, -44.062500) "></line>
+                                <line x1="5.64303552" y1="14.0625" x2="5.64303552" y2="17.8125" id="Line-2" transform="translate(5.643036, 15.937500) rotate(120.000000) translate(-5.643036, -15.937500) "></line>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="42px" viewBox="0 0 52 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Arrows</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.-Desktop-large---from-1208" transform="translate(-614.000000, -599.000000)">
+            <g id="Images/Arrows" transform="translate(604.000000, 584.000000)">
+                <g id="arrows">
+                    <rect id="bounds" x="0" y="0" width="72" height="72"></rect>
+                    <g id="Group-18" transform="translate(25.500000, 24.000000) scale(-1, 1) translate(-25.500000, -24.000000) translate(11.000000, 16.000000)" stroke="#5F6368" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <line x1="0.5" y1="8" x2="28" y2="8" id="Line"></line>
+                        <polyline id="Line-2" points="21 0 29 8 21 16"></polyline>
+                    </g>
+                    <g id="Group-7" transform="translate(32.000000, 40.000000)" stroke="#5F6368" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <line x1="0.5" y1="8" x2="27" y2="8" id="Line"></line>
+                        <polyline id="Line-2" points="21 0 29 8 21 16"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
