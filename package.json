@@ -12,6 +12,6 @@
     "grunt-spritesmith": "6.1.0",
     "grunt-svg-sprite": "^1.2.10",
     "install": "~0.1.8",
-    "npm": "~2.4.1"
+    "npm": "~6.14.6"
   }
 }
