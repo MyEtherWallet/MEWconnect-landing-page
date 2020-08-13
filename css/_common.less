@@ -53,9 +53,10 @@ html {
     padding-left: 40px;
 
     .screen-desktop({
-      width: 100%;
-      padding-right: 20px;
-      padding-left: 20px;
+      width: 928px;
+      max-width: 928px;
+      padding-right: 0;
+      padding-left: 0;
     });
 
     .screen-tablet({
@@ -84,7 +85,6 @@ html {
   }
 
   &.fix {
-    background: rgba(253,253,253,0.92);
     box-shadow: 0 1px 0 0 rgba(0,0,0,0.12);
     position: fixed;
     left: 0;
@@ -101,9 +101,9 @@ html {
       left: 0;
       top: 0;
       z-index: 1;
-      -webkit-backdrop-filter: blur(20px);
-      backdrop-filter: blur(20px);
-      background-color: rgba(253,253,253, 0.92); 
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: rgba(255,255,255,.85); 
     }
 
     .col-10 {
@@ -160,7 +160,7 @@ html {
     }
 
     .screen-mobile-l({
-      display: block;
+      display: none;
     });
 
     .screen-mobile-l({
@@ -357,6 +357,10 @@ html {
     margin-top: -9px;
     margin-bottom: 24px;
 
+    .screen-mobile-l({
+      margin-bottom: 0;
+    });
+
     .screen-mobile({
       position: absolute;
       left: -6px;
@@ -377,6 +381,10 @@ html {
       transition: opacity .3s ease-in-out;
       opacity: 1;
       background-size: cover;
+
+      .screen-mobile-l({
+        margin-bottom: 24px;
+      });
 
       .screen-mobile({
         margin-right: 11px;

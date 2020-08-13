@@ -2,11 +2,14 @@
  * Общие скрипты
  **/
 
+var msnry
+
 $(window).load(function(){
-    var msnry = new Masonry( '.integrate__list-grid', {
+    msnry = new Masonry( '.integrate__list-grid', {
         percentPosition: true,
+        initLayout: true,
         resize: true,
-        gutter: $(window).width() > 1024 ? 40 : 32
+        gutter: $(window).width() > 927 ? 40 : 32
     });
 
     $('.js-toggle').on('click', function(){
@@ -30,6 +33,10 @@ $(document).scroll(function() {
 
 $(window).resize(function() {
   var top = $(document).scrollTop();
+
+  /*msnry.masonry({
+    gutter: $(window).width() > 927 ? 40 : 32
+  })*/
 
   if(top > 132) {
     $(".header").addClass('fix');

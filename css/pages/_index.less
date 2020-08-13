@@ -49,6 +49,10 @@
             text-decoration: none;
 
             &:hover { text-decoration: underline; }
+
+            span {
+                font-size: 0;
+            }
         }
     }
 
@@ -128,6 +132,10 @@
                 padding-right: 67px;
                 margin: 0;
 
+                .screen-desktop({
+                    padding-right: 0px;
+                });
+
                 .screen-tablet({
                     font-size: 17px;
                     line-height: 24px;
@@ -188,7 +196,7 @@
 }
 
 .integrate {
-    background: #D8D8D8;
+    background: #F2F4F7;
     padding-top: 104px;
     text-align: center;
     padding-bottom: 69px;
@@ -203,7 +211,7 @@
     });
 
     .screen-mobile({
-        padding-top: 159px;
+        padding-top: 80px;
         padding-bottom: 48px;
     });
 
@@ -293,7 +301,7 @@
             font-size: 16px;
             line-height: 20px;
             margin-top: 41px;
-            margin-bottom: 92px;
+            margin-bottom: 18px;
         });
 
         &:hover {
@@ -307,7 +315,7 @@
             position: relative;
             margin-left: 1px;
             vertical-align: middle;
-            top: 1px;
+            top: 0;
 
             .screen-mobile({
                 top: -1px;
@@ -343,16 +351,16 @@
                 margin-bottom: 40px;
                 padding: 40px;
                 padding-bottom: 31px;
+                box-sizing: border-box;
 
                 .screen-tablet({
                     padding: 34px;  
-                    width: calc(~'50% - 16px');
                     margin-bottom: 32px;
                 });
 
                 .screen-mobile-l({
                     border-radius: 10px;
-                    padding: 16px;  
+                    padding: 24px;  
                     padding-right: 10px;
                 });
 
@@ -529,10 +537,9 @@
         margin-bottom: -3px;
 
         .screen-mobile({
-            width: 160%;
+            width: 100%;
             max-width: 1280px;
-            margin-bottom: -3px;
-            margin-left: -30%;
+            margin-left: 0;
         });
     }
 }
@@ -601,16 +608,27 @@
     img {
         max-width: calc(~'100% + 80px');
         margin-left: -40px;
+        border-radius: 16px;
 
         .screen-tablet({
             max-width: calc(~'100% + 62px');
             margin-left: -31px;
+            display: none;
         });
 
         .screen-mobile({
             max-width: 100%;
             margin-left: 0;
+            border-radius: 10px;
         });
+
+        &.mobile {
+            display: none;
+
+            .screen-tablet({
+                display: block
+            });
+        }
     }
 }
 
