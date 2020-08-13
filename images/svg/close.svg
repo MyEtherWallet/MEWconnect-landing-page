@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="13px" viewBox="0 0 12 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icons/Hamburger menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.8%" y="-1.2%" width="101.6%" height="102.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="06.-Scrolled-menu---Mobile---Open" transform="translate(-282.000000, -26.000000)">
+            <g id="Scrolled-menu" filter="url(#filter-1)">
+                <g id="Icons/Buttons/Hamburger-Close" transform="translate(272.000000, 16.000000)">
+                    <g id="hamburger.menu">
+                        <rect id="bounds" x="0" y="0" width="32" height="32"></rect>
+                        <path d="M23,15 C23.5522847,15 24,15.4477153 24,16 C24,16.5128358 23.6139598,16.9355072 23.1166211,16.9932723 L23,17 L9,17 C8.44771525,17 8,16.5522847 8,16 C8,15.4871642 8.38604019,15.0644928 8.88337887,15.0067277 L9,15 L23,15 Z" id="Line" fill="#000000" fill-rule="nonzero" transform="translate(16.000000, 16.000000) rotate(-45.000000) translate(-16.000000, -16.000000) "></path>
+                        <path d="M23,15 C23.5522847,15 24,15.4477153 24,16 C24,16.5128358 23.6139598,16.9355072 23.1166211,16.9932723 L23,17 L9,17 C8.44771525,17 8,16.5522847 8,16 C8,15.4871642 8.38604019,15.0644928 8.88337887,15.0067277 L9,15 L23,15 Z" id="Line" fill="#000000" fill-rule="nonzero" transform="translate(16.000000, 16.000000) rotate(45.000000) translate(-16.000000, -16.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
