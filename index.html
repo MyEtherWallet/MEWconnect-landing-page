@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>MEWconnect protocol</title>
-    <link rel="stylesheet" type="text/css" href="css/style.min.css?v=1" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css?v=3" media="screen">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, viewport-fit=cover">
     <link href="pic/favicon.png" rel="shortcut icon" type="image/x-icon">
     <link href="pic/touch-icon.png" rel="apple-touch-icon">
@@ -14,8 +14,8 @@
         <div class="row justify-content-center">
             <div class="col-10">
                <a href="/" class="header__logo"></a>
-               <a href="javascript:void(0)" class="header__open"></a>
-               <div class="header__menu">
+               <a href="javascript:void(0)" class="header__open js-toggle"></a>
+               <div class="header__menu js-menu">
                     <a href="https://github.com/MyEtherWallet/MEWconnect-web-client" target="_blanck" class="header__menu-guide"><span></span> Integration guide</a>
                     <a href="#" class="header__menu-tools">MEW Tools</a>     
                 </div>
@@ -27,14 +27,16 @@
         <div class="container">    
             <div class="row justify-content-center">
                 <div class="col-10">
-                    <h2 class="start__title">Get <span class="blue">your DApp</span> into the hands of <a href="https://www.mewwallet.com/" target="_blanck" class="green">MEW wallet's</a> hundreds of thousands of users.</h2>
+                    <h2 class="start__title">
+                        Get <span class="blue">your DApp</span> into the hands of&nbsp;<a href="https://www.mewwallet.com/" target="_blanck" class="green">MEW wallet&rsquo;s</a> hundreds of&nbsp;thousands of&nbsp;users.
+                    </h2>
                 </div>
             </div>
             <div class="row justify-content-center start__swap">
                 <div class="col-4">
                     <div class="start__swap-block">
                         <img src="pic/swap-left.svg" alt="" />
-                        <p class="start__swap-block-text left">Add MEW wallet to your DApp as one of  the connection options.</p>
+                        <p class="start__swap-block-text left">Add MEW wallet to&nbsp;your DApp as&nbsp;one of&nbsp;the connection options.</p>
                     </div>
                 </div>
                 <div class="col-2">
@@ -54,34 +56,34 @@
 
     <div class="integrate">
         <a href="https://github.com/MyEtherWallet/MEWconnect-web-client" target="_blanck" class="integrate__button"><span></span> Integrate now</a><br />
-        <p class="integrate__desc">Visit our GitHub page with detailed docs on how to integrate MEWconnect, to make your app available to MEW user base Today.</p><br />
-        <a href="https://myetherwallet.github.io/MEWconnect-web-client/#/home" target="_blanck" class="integrate__live">View live demo <span></span></a>
+        <p class="integrate__desc">Visit our GitHub page with detailed docs on&nbsp;how to&nbsp;integrate MEWconnect, to&nbsp;make your app available to&nbsp;MEW user base Today.</p><br />
+        <a href="https://myetherwallet.github.io/MEWconnect-web-client/#/home" target="_blanck" class="integrate__live">View live demo<span></span></a>
         <div class="container">    
             <div class="row justify-content-center integrate__list">
                 <div class="col-10">
                     <div class="integrate__list-grid">
                         <div class="integrate__list-grid-item">
                             <div class="integrate__list-icon integrate-in-minutes"></div>
-                            <h3 class="integrate__list-title">Integrate in minutes</h3>
-                            <p class="integrate__list-text">MEWconnect is very easy to integrate. Follow our simple <a target="_blanck" href="https://github.com/MyEtherWallet/MEWconnect-web-client">integration guide</a>, and use the example that we provided.</p>
-                            <p class="integrate__list-text">If you need any help, our friendly team will be able to assist you.<br />Just <a href="mailto:support@myetherwallet.com?subject=MEWconnect%20integration">contact us about MEWconnect integration</a>.</p>
+                            <h3 class="integrate__list-title">Integrate in&nbsp;minutes</h3>
+                            <p class="integrate__list-text">MEWconnect is&nbsp;very easy to&nbsp;integrate. Follow our simple <a target="_blanck" href="https://github.com/MyEtherWallet/MEWconnect-web-client">integration guide</a>, and use the example that we&nbsp;provided.</p>
+                            <p class="integrate__list-text">If&nbsp;you need any help, our friendly team will be&nbsp;able to&nbsp;assist you.<br />Just <a href="mailto:support@myetherwallet.com?subject=MEWconnect%20integration">contact&nbsp;us about MEWconnect integration</a>.</p>
                         </div>
                         <div class="integrate__list-grid-item">
                             <div class="integrate__list-icon secure"></div>
-                            <h3 class="integrate__list-title">Secure way to use your dapp</h3>
-                            <p class="integrate__list-text">User keeps their funds in their mobile app, while safely interacting with your DApp.</p>
-                            <p class="integrate__list-text">Mobile adds a second factor of authentication. </p>
+                            <h3 class="integrate__list-title">Secure way to&nbsp;use your dapp</h3>
+                            <p class="integrate__list-text">User keeps their funds in&nbsp;their mobile app, while safely interacting with your DApp.</p>
+                            <p class="integrate__list-text">Mobile adds a&nbsp;second factor of&nbsp;authentication. </p>
                         </div>
 
                         <div class="integrate__list-grid-item">
                             <div class="integrate__list-icon decentralized"></div>
                             <h3 class="integrate__list-title">The only truly decentralized p2p solution</h3>
-                            <p class="integrate__list-text">MEWconnect uses WebRTC technology, this means that there’s no centralized server in the middle between your DApp and MEW.</p>
+                            <p class="integrate__list-text">MEWconnect uses WebRTC technology, this means that there&rsquo;s no&nbsp;centralized server in&nbsp;the middle between your DApp and MEW.</p>
                         </div>
                         <div class="integrate__list-grid-item">
                             <div class="integrate__list-icon improve"></div>
-                            <h3 class="integrate__list-title">Improve user experience of your DApp</h3>
-                            <p class="integrate__list-text">MEW users love to explore new things, together we can create an experience they can truly enjoy.</p>
+                            <h3 class="integrate__list-title">Improve user experience of&nbsp;your DApp</h3>
+                            <p class="integrate__list-text">MEW users love to&nbsp;explore new things, together we&nbsp;can create an&nbsp;experience they can truly enjoy.</p>
                         </div>
                       </div>
                 </div>
@@ -93,8 +95,8 @@
         <div class="container">    
             <div class="row justify-content-center">
                 <div class="col-10">
-                    <h3 class="special__title">Making something special?<br />Let’s add your DApp to MEW wallet’s dapp directory.</h3>
-                    <p class="special__text">Once you integrated MEWconnect into your DApp please let us know so we can look into adding it to the DApp Directory in MEW wallet app.</p>
+                    <h3 class="special__title">Making something special?<br />Let&rsquo;s add your DApp to&nbsp;MEW wallet&rsquo;s dapp directory.</h3>
+                    <p class="special__text">Once you integrated MEWconnect into your DApp please let&nbsp;us know so&nbsp;we&nbsp;can look into adding it&nbsp;to&nbsp;the DApp Directory in&nbsp;MEW wallet app.</p>
                 </div>
             </div>
         </div> 
@@ -105,8 +107,8 @@
         <div class="container">    
             <div class="row justify-content-center">
                 <div class="col-10">
-                    <h3 class="team__title">Built, regularly updated, and<br />maintained by MyEtherWallet team</h3>
-                    <p class="team__text">The team that brought you the Ethereum’s original and most trusted wallet interface.</p>
+                    <h3 class="team__title">Built, regularly updated, and<br />maintained by&nbsp;MyEtherWallet team</h3>
+                    <p class="team__text">The team that brought you the Ethereum&rsquo;s original and most trusted wallet interface.</p>
                     <img src="pic/team.jpg" alt="" />
                 </div>
             </div>
@@ -114,10 +116,10 @@
     </div>
 
     <div class="dapp">
-        <h3 class="dapp__title">Make your DApp available to MEW users Today</h3><br />
+        <h3 class="dapp__title">Make your DApp available to&nbsp;MEW users Today</h3><br />
         <a href="https://github.com/MyEtherWallet/MEWconnect-web-client" target="_blanck" class="integrate__button"><span></span> Visit our github</a><br />
         <p class="integrate__desc">For integration manual, code and examples</p><br />
-        <a href="https://myetherwallet.github.io/MEWconnect-web-client/#/home" target="_blanck" class="integrate__live">View live demo <span></span></a>
+        <a href="https://myetherwallet.github.io/MEWconnect-web-client/#/home" target="_blanck" class="integrate__live">View live demo<span></span></a>
     </div>
 </div>
 
@@ -161,7 +163,7 @@
     </div>
 </div>
 
-<script src="js/script.min.js?v=1"></script>
+<script src="js/script.min.js?v=3"></script>
 
 </body>
 </html>
