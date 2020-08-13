@@ -9,7 +9,7 @@ $(window).load(function(){
         percentPosition: true,
         initLayout: true,
         resize: true,
-        gutter: $(window).width() > 927 ? 40 : 32
+        gutter: $(window).width() > 928 ? 40 : 32
     });
 
     $('.js-toggle').on('click', function(){

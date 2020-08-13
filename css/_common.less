@@ -179,12 +179,12 @@ html {
       margin-right: -29px;
     });
 
-    .screen-mobile-l({
+    .screen-mobile({
       display: none;
     });
 
     &.open {
-      .screen-mobile-l({
+      .screen-mobile({
         display: block;
         width: 100%;
         position: absolute;
@@ -212,7 +212,7 @@ html {
           margin-right: 6px;
           top: 0px;
 
-          .screen-mobile-l({
+          .screen-mobile({
             display: none;
           });
       }
@@ -226,7 +226,7 @@ html {
         }
       }
 
-      .screen-mobile-l({
+      .screen-mobile({
         line-height: 48px;
         justify-content: flex-start;
         box-shadow: inset 0 1px 0 0 rgba(0,0,0,0.05);
@@ -296,15 +296,20 @@ html {
     padding-left: 40px;
 
     .screen-desktop({
-      width: 100%;
-      padding-right: 20px;
-      padding-left: 20px;
+      width: 928px;
+      max-width: 928px;
+      padding-right: 0;
+      padding-left: 0;
     });
 
     .screen-tablet({
       padding-right: 0;
       padding-left: 0;
       width: 100%;
+    });
+
+    .screen-mobile({
+
     });
 
     .col-5 {
