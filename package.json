@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "grunt": "~0.4.1",
+    "grunt": "~1.5.3",
     "grunt-concat-css": "~0.3.1",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-concat": "~0.5.0",
@@ -12,6 +12,6 @@
     "grunt-spritesmith": "6.1.0",
     "grunt-svg-sprite": "^1.2.10",
     "install": "~0.1.8",
-    "npm": "~2.4.1"
+    "npm": "~2.15.12"
   }
 }
